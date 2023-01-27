@@ -1,7 +1,11 @@
 {
-  "name": "tf-react-chester",
+  "name": "phuongdk-portfolio",
   "version": "4.6.0",
   "license": "MIT",
+  "engines": {
+    "node": "19.4.0",
+    "npm": "9.2.0"
+  },
   "dependencies": {
     "axios": "^0.27.2",
     "axios-mock-adapter": "^1.21.1",
@@ -31,7 +35,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-  	"deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [

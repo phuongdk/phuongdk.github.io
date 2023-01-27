@@ -40,7 +40,7 @@
 		display: inline-block;
 		margin-bottom: 20px;
 		font-size: 20px;
-		border-bottom: 1px solid #037fff;
+		border-bottom: 1px solid $light-color-theme;
 		-webkit-user-select: none;
 		-ms-user-select: none;
 		user-select: none;
@@ -63,7 +63,7 @@
 		.mi-resume-project {
 			margin-bottom: 10px;
 			max-width: 100%;
-			border-bottom: 1px solid #037fff;
+			border-bottom: 1px solid $color-border;
 
 			&:last-child {
 				border-bottom: none;
@@ -81,9 +81,12 @@
 	}
 }
 
-.light .project-involve-wrapper .mi-resume-project-wrapper .mi-resume-project .field span:first-child {
-	color: #037fff;
-	font-weight: bold;
+.light .project-involve-wrapper .mi-resume-project-wrapper .mi-resume-project {
+	border-color: $light-color-theme;
+	.field span:first-child {
+		color: $light-color-theme;
+		font-weight: bold;
+	}
 }
 
 .mi-progress-line-divider {
@@ -124,5 +127,121 @@
 	}
 	.cert-btn2 {
 		margin-left: 0px;
+	}
+}
+
+/*******************************
+*****PROGRESS HOVER EFFECT******
+*******************************/
+
+.mi-progress {
+	position: relative;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz--transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	.mi-progress-title {
+		cursor: default;
+	}
+	.additional-info {
+		cursor: default;
+		visibility: hidden;
+		opacity: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		min-height: 0;
+		border: 1px solid;
+		border-color: transparent;
+		border-radius: 4px;
+		background-color: transparent;
+		width: 100%;
+		padding: 20px;
+		z-index: 0;
+		transition: all 0.3s ease-in-out;
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz--transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		transition: opacity 0.6s ease-in-out;
+		-webkit-transition: opacity 0.6s ease-in-out;
+		-moz--transition: opacity 0.6s ease-in-out;
+		-o-transition: opacity 0.6s ease-in-out;
+	}
+	&:hover {
+		z-index: 99;
+		.mi-progress-title {
+			color: $light-color-theme;
+		}
+		.additional-info {
+			visibility: visible;
+			opacity: 1;
+			z-index: 99;
+			min-height: 70px;
+			color: $light-color-theme;
+			background-color: #ffffff;
+			border-color: $light-color-theme;
+		}
+	}
+}
+
+// .light .mi-progress .additional-info {
+// 	color: #ffffff;
+// 	background-color: $light-color-theme;
+// 	border-color: $light-color-theme;
+// }
+
+/***********************************
+*****LINK REFERENCE HOVER EFFECT****
+***********************************/
+
+.mi-blog {
+	position: relative;
+	.mi-link-reference-wrapper {
+		display: flex;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		width: 100%;
+		max-height: 0;
+		background-color: transparent;
+		padding: 15px;
+		visibility: hidden;
+		opacity: 0;
+		border: 1px solid;
+		border-color: transparent;
+		transition: all 0.5s ease-in-out;
+		-webkit-transition: all 0.5s ease-in-out;
+		-moz--transition: all 0.5s ease-in-out;
+		-o-transition: all 0.5s ease-in-out;
+		div a:hover {
+			color: #ffffff;
+		}
+	}
+	&:hover {
+		.mi-link-reference-wrapper {
+			visibility: visible;
+			opacity: 1;
+			max-height: 220px;
+			background-color: #10121b;
+			border-color: #111939;
+		}
+	}
+}
+
+.light {
+	.mi-blog {
+		.mi-link-reference-wrapper {
+			background-color: #ffffff;
+			border-color: transparent;
+			div a {
+				color: $light-color-theme;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
 	}
 }

@@ -39,6 +39,7 @@ function Resumes() {
                     title={skill.title}
                     level={skill.level}
                     percentage={skill.value}
+                    additionalInfo={skill.additionalInfo}
                   />
                 </TrackVisibility>
               ))}

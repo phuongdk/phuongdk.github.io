@@ -1,4 +1,5 @@
 import React from 'react';
+import Lib from 'react-slick/lib';
 
 function Progress(props) {
   const winWidth = window.innerWidth;
@@ -52,6 +53,16 @@ function Progress(props) {
           <div className='mi-progress-inner'>
             <div className='mi-progress-percentage'>{props.level}</div>
             <div className='mi-progress-container'>{progressQuery()}</div>
+          </div>
+        )
+      }
+      {
+        props.additionalInfo && (
+          <div className={`additional-info`}>
+            Familiar with:
+            <div
+              dangerouslySetInnerHTML={{ __html: props.additionalInfo }}
+            />
           </div>
         )
       }

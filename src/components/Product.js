@@ -7,8 +7,7 @@ function Product(props) {
     createMonth,
     createYear,
     link,
-    link2 = null,
-    link3 = null,
+    linkReference,
     download,
   } = props.data;
 
@@ -43,22 +42,22 @@ function Product(props) {
             {title}
           </a>
         </h5>
-        {link2 && (
-          <div style={{ marginBottom: '5px' }}>
-            <a href={link2.link} rel='noopener noreferrer' target='_blank'>
-              {link2.name}
-            </a>
-          </div>
-        )}
-
-        {link3 && (
-          <div style={{ marginBottom: '5px' }}>
-            <a href={link3.link} rel='noopener noreferrer' target='_blank'>
-              {link3.name}
-            </a>
-          </div>
-        )}
       </div>
+      {
+        Array.isArray(linkReference) && linkReference.length > 0 && (
+          <div className='mi-link-reference-wrapper'>
+            {
+              linkReference.map(item => (
+                <div style={{ marginBottom: '5px' }}>
+                  <a href={item.link} rel='noopener noreferrer' target='_blank'>
+                    {item.name}
+                  </a>
+                </div>
+              ))
+            }
+          </div>
+        )
+      }
     </div>
   );
 }

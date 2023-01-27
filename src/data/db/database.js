@@ -51,68 +51,80 @@ const database = {
       title: 'HTML5 / CSS3 / Javascript ESNext',
       level: '6 YoE',
       value: 100,
+      additionalInfo: ''
     },
     {
       title: 'React',
       level: '3 YoE',
       value: 50,
+      additionalInfo: '<ul><li>React hook, React context</li><li>Redux, Redux-tool-kit, Mobx-state-tree, React-query</li><li>Nextjs</li><li>Webpack</li></ul>'
     },
     {
       title: 'React Native',
       level: '1 YoE',
       value: 16.666,
+      additionalInfo: ''
     },
     {
       title: 'Angular',
       level: '2 YoE',
       value: 33.332,
+      additionalInfo: '<ul><li>Angular 14, Typescript</li><li>Rxjs</li><li>Angular Universal</li></ul>'
     },
     {
       title: 'Vuejs',
       level: '1 YoE',
       value: 16.666,
+      additionalInfo: '<ul><li>Vue 3</li><li>Vuex 4, Pinia</li><li>Vuex Router 4</li></ul>'
     },
     {
-      title: 'Nodejs (Express, Nest)',
+      title: 'Nodejs',
       level: '3 YoE',
       value: 50,
+      additionalInfo: '<ul><li>Express framework</li><li>Nestjs framework</li></ul>'
     },
     {
-      title: 'Python (Flask, Boto3)',
+      title: 'Python',
       level: '2 YoE',
       value: 33.332,
+      additionalInfo: '<ul><li>Flask micro framework</li><li>Python boto3 for interacting with AWS resources</li></ul>'
     },
     {
       title: 'Docker',
       level: '1 YoE',
       value: 16.666,
+      additionalInfo: '<ul><li>Docker compose</li></ul>'
     },
     {
       title: 'Kubernetes',
       level: '6 months',
       value: 8.333,
+      additionalInfo: ''
     },
     {
       title: 'Gitlab CI / CD',
       level: '1 YoE',
       value: 16.666,
+      additionalInfo: ''
     },
     {
       title: 'Amazon Web Services',
       level: '1 YoE',
       value: 16.666,
+      additionalInfo: ''
     },
     {
-      title: 'Familiar with these support tools: Github, Gitlab, Bitbucket, Jira, Confluence, Trello, Slack, Postman',
+      title: 'Support tools...',
       level: '',
       value: 0,
+      additionalInfo: '<ul><li>Github, Gitlab, Bitbucket</li><li>Jira, Confluence</li><li>Trello, Slack, Postman</li></ul>'
     },
   ],
   experience: {
     workingExperience: [
       {
         id: 1,
-        year: '2016 - 2017',
+        year: 'Feb 2016 - Feb 2017',
         position: 'CMS Developer',
         company: 'BrainOS',
         companyLink: 'https://brainos.vn/',
@@ -122,7 +134,7 @@ const database = {
       },
       {
         id: 2,
-        year: '2017 - 2019',
+        year: 'Jun 2017 - Aug 2019',
         position: 'Frontend & Backend Developer',
         company: 'Rikkeisoft',
         companyLink: 'https://rikkeisoft.com/',
@@ -131,53 +143,53 @@ const database = {
         projects: [
           {
             name: 'Skillsheet application',
-            description: '',
+            description: 'Monolithic architecture',
             technologies: 'Angular 2, PHP / Laravel',
             responsibility: 'Front-end & Back-end development',
           },
           {
             name: 'Embedded management system',
-            description: '',
+            description: 'Monolithic architecture',
             technologies: 'Ractivejs, Backbonejs',
             responsibility: 'Front-end development',
           },
           {
             name: 'Car booking application',
-            description: '',
+            description: 'Micro-services architecture',
             technologies:
-              'React, React Native, Nextjs, Nodejs, Typescript, GraphQL, Apollo, Twillio, mobx-state-tree, docker / compose',
-            responsibility: 'Front-end development',
+              'React, Mobx-state-tree, React Native, Nextjs, Typescript, Nodejs/Express, MySQL, GraphQL, Apollo, Twillio, Stripe, Docker / Docker-compose, AWS S3, AWS Kinesis Stream',
+            responsibility: 'Front-end & Back-end development',
           },
           {
             name: 'E-learning system',
-            description: '',
+            description: 'Monolithic architecture',
             technologies: 'PHP / Cake2, MySQL',
             responsibility:
               'Mentoring fresher, supporting and debugging application',
           },
           {
             name: 'Medical management system',
-            description: '',
-            technologies: 'PHP / Laravel, MySQL',
+            description: 'Monolithic architecture',
+            technologies: 'Ruby / Rails, PostgreSQL',
             responsibility: 'Back-end development',
           },
           {
             name: 'Hotel, restaurant, spa,... management system',
-            description: '',
-            technologies: 'React, redux, ant-design',
-            responsibility: 'Front-end development',
+            description: 'Micro-services architecture',
+            technologies: 'React, Redux, Ant-design, Dva, Typescript, Node/Express, MongoDB, Apache Kafka message broker',
+            responsibility: 'Front-end & Back-end development',
           },
           {
-            name: 'An online hiring performer platform',
-            description: '',
-            technologies: 'React, PHP / Laravel, MaterialUI, Vagrant',
-            responsibility: 'Front-end development',
+            name: 'E-Commerce Ticketing system',
+            description: 'Micro-services architecture',
+            technologies: 'Vuejs, Vuex, Nodejs/Nest, Typescript, MaterialUI, MongoDB, NATS message broker',
+            responsibility: 'Front-end & Back-end development',
           },
         ],
       },
       {
         id: 3,
-        year: '2019 - 2020',
+        year: 'Sep 2019 - Dec 2020',
         position: 'Frontend & Backend Developer',
         company: 'Viettel Cyber Security',
         companyLink: 'https://viettelcybersecurity.com/',
@@ -186,17 +198,47 @@ const database = {
         projects: [
           {
             name: 'Anti-Fraud Phone Charges System',
-            description: '',
-            technologies: 'Angular 7, Python / Flask, MongoDB, docker',
-            responsibility: 'Front-end & Back-end development',
+            description: 'Monolithic architecture',
+            technologies: 'Angular 8, Rxjs, Typescript, Python / Flask, MongoDB, Docker',
+            responsibility: 'Front-end & Back-end development, setup Gitlab CI / CD pipeline',
           },
           {
-            name: 'Supervising and Monitoring System',
-            description: '',
+            name: 'Remote Botware Integrated System',
+            description: 'Monolithic architecture',
             technologies:
-              'Angular 7, Electron, Python / Flask, MongoDB, docker',
+              'Angular 8, Rxjs, Typescript, Electron, Python / Flask, MongoDB, Grpc, Docker, Gitlab CI / CD',
             responsibility:
-              'Front-end & Back-end development, setup Gitlab CI / CD',
+              'Front-end & Back-end development, setup Gitlab CI / CD pipeline',
+          },
+        ],
+      },
+      {
+        id: 4,
+        year: 'Jun 2021 - Mar 2023',
+        position: 'Senior Software Engineer Team Lead',
+        company: 'HCL Technologies',
+        companyLink: 'https://www.hcltech.com/',
+        details:
+          'Working with United Oversea Bank in Singapore, leading bank in Asia with a global network of more than 500 offices in 19 countries and territories in multiple projects.',
+        projects: [
+          {
+            name: 'BB CASA(Current Account and Savings Account)',
+            description: 'Monolithic architecture',
+            technologies: 'React, React-query, redux-toolkit, Nodejs, PostgreSQL',
+            responsibility: 'Front-end development & Back-end development',
+          },
+          {
+            name: 'Car Loan Management System',
+            description: 'Monolithic architecture',
+            technologies: 'Vue 3, Vuex 4, Vue Router 4',
+            responsibility: 'Front-end development',
+          },
+          {
+            name: 'Artifact Management System',
+            description: 'AWS architecture',
+            technologies: 'Python Boto3, AWS Route53, AWS VPC, AWS RDS, AWS S3, AWS EC2,...',
+            responsibility:
+              'Migrate the system from on-premise to cloud-base in AWS, using python for interacting with AWS resources',
           },
         ],
       },
@@ -214,7 +256,7 @@ const database = {
         year: '2011 - 2016',
         graduation: 'Bachelor Degree of Information Technology',
         university: 'Ha Noi University',
-        companyLink: 'http://www.hanu.vn/vn/',
+        companyLink: 'https://www.hanu.vn/vn/',
         details: 'Graduate from Ha Noi University, IT department',
       },
     ],
@@ -224,51 +266,74 @@ const database = {
       id: 1,
       title: 'React Dumbo Chat Application',
       featuredImage: '/images/dumbo-bg1.jpg',
-      link: 'https://dumbo-chat-app-phuongdk.herokuapp.com',
+      link: 'https://dumbo-chat-app.phuongdk.io',
       download: false,
       createDay: '1',
       createMonth: 'June',
       createYear: '2020',
     },
+    // {
+    //   id: 2,
+    //   title: 'React Dumbo Chat Application',
+    //   featuredImage: '/images/tiny-sketch.jpg',
+    //   link: 'https://tiny-sketch-app.phuongdk.io',
+    //   download: false,
+    //   createDay: '1',
+    //   createMonth: 'Dec',
+    //   createYear: '2022',
+    // },
     {
-      id: 2,
+      id: 3,
       title: 'React Native Car Booking Application ( Pure UI )',
       featuredImage: '/images/car-app-bg.jpg',
-      link: 'https://expo.io/@phuongdk/projects/CarBookingAppUI',
-      link2: {
-        name: 'Download expo client android app',
-        link:
-          'https://play.google.com/store/apps/details?id=host.exp.exponent&hl=vi&gl=US',
-      },
-      link3: {
-        name: "Scan application's QR Code with expo",
-        link: 'http://phuongdk.com/car-app-qr-code.jpg',
-      },
+      link: 'http://phuongdk.com/images/car-booking-app-ios-qr.png',
+      linkReference: [
+        {
+          name: 'Download \"Expo Go\" Android App',
+          link:
+            'https://play.google.com/store/apps/details?id=host.exp.exponent&hl=vi&gl=US',
+        },
+        {
+          name: 'Download \"Expo Go\" iOS App',
+          link:
+            'https://apps.apple.com/vn/app/expo-go/id982107779?l=en',
+        },
+        {
+          name: "Scan App Android version with \"Expo Go\"",
+          link: 'http://phuongdk.com/images/car-booking-app-android-qr.png',
+        },
+        {
+          name: "iOS version scan with Iphone Camera App (need Expo installed)",
+          link: 'http://phuongdk.com/images/car-booking-app-ios-qr.png',
+        },
+      ],
       download: false,
       createDay: '1',
       createMonth: 'August',
       createYear: '2020',
     },
     {
-      id: 3,
+      id: 4,
       title: 'React Native Estate Full Application',
       featuredImage: '/images/estate-bg.jpg',
-      link: 'https://expo.io/@phuongdk/projects/pumahousing',
-      link2: {
-        name: 'Download apk file',
-        link: 'https://www.phuongdk.com/puma-housing-app.apk',
-      },
-      link3: {
-        name: "Scan application's QR Code with expo",
-        link: 'https://www.phuongdk.com/puma-housing-app-qr-code.jpg',
-      },
+      link: 'http://phuongdk.com/images/puma-housing-app-ios-qr.png',
+      linkReference: [
+        {
+          name: "Scan App Android version with \"Expo Go\"",
+          link: 'http://phuongdk.com/images/puma-housing-app-android-qr.png',
+        },
+        {
+          name: "iOS version scan with Iphone Camera app (need Expo installed)",
+          link: 'http://phuongdk.com/images/puma-housing-app-ios-qr.png',
+        },
+      ],
       download: false,
       createDay: '1',
       createMonth: 'November',
       createYear: '2020',
     },
     {
-      id: 4,
+      id: 5,
       title: 'Electron CPU Monitor Application for Windows',
       featuredImage: '/images/cpu-monitor-bg1.jpg',
       link: 'http://phuongdk.com/cpu-monitor-app/CpuMonitor Setup 1.0.0.exe',
@@ -278,7 +343,7 @@ const database = {
       createYear: '2020',
     },
     {
-      id: 5,
+      id: 6,
       title: 'Oxygen Shopify Theme',
       featuredImage: '/images/oxygen-bg1.jpg',
       link: 'https://ap-oxygen.myshopify.com/',
@@ -288,7 +353,7 @@ const database = {
       createYear: '2016',
     },
     {
-      id: 6,
+      id: 7,
       title: 'Over Shopify Theme',
       featuredImage: '/images/over-bg1.jpg',
       link: 'https://ap-over.myshopify.com/',
@@ -298,7 +363,7 @@ const database = {
       createYear: '2016',
     },
     {
-      id: 7,
+      id: 8,
       title: 'Casper Shopify Theme',
       featuredImage: '/images/casper-bg1.jpg',
       link: 'https://ap-cp.myshopify.com/',
@@ -315,27 +380,27 @@ const database = {
       subtitle: 'Pure javascript Application',
       imageUrl: '/images/dice-bg.jpg',
       largeImageUrl: ['/images/dice-bg.jpg'],
-      url: 'http://phuongdk.com/dice-game',
+      url: 'https://dice-game-app.phuongdk.io',
     },
     {
       id: 2,
       title: 'Small budget Application',
-      subtitle: 'Pure javascript application',
+      subtitle: 'Pure javascript Application',
       imageUrl: '/images/budget-bg.jpg',
       largeImageUrl: ['/images/budget-bg.jpg'],
-      url: 'http://phuongdk.com/budget-web-app',
+      url: 'https://budget-app.phuongdk.io',
     },
-    {
-      id: 3,
-      title: 'Alpha Blog Application',
-      subtitle: 'Build on top of Ruby on Rails framework',
-      imageUrl: '/images/alpha-blog.jpg',
-      largeImageUrl: ['/images/alpha-blog.jpg'],
-      url: 'https://alpha-blog-phuongdk.herokuapp.com/',
-    },
+    // {
+    //   id: 3,
+    //   title: 'Alpha Blog Application',
+    //   subtitle: 'Build on top of Ruby on Rails framework',
+    //   imageUrl: '/images/alpha-blog.jpg',
+    //   largeImageUrl: ['/images/alpha-blog.jpg'],
+    //   url: 'https://alpha-blog-phuongdk.herokuapp.com/',
+    // },
   ],
   contactInfo: {
-    phoneNumbers: ['(+84) 393 167 157'],
+    phoneNumbers: ['(+84) 772 934 684'],
     emailAddress: ['phuongdkk@gmail.com'],
     githubLink: 'https://github.com/phuongdk',
     linkedinLink: 'https://linkedin.com/in/phuongdk',
