@@ -34,6 +34,7 @@
 *******************************/
 .project-involve-wrapper {
 	margin-top: 20px;
+
 	.title {
 		cursor: pointer;
 		display: inline-block;
@@ -43,37 +44,85 @@
 		-webkit-user-select: none;
 		-ms-user-select: none;
 		user-select: none;
+
 		span {
 			position: relative;
 			top: -2px;
 			margin-right: 5px;
 		}
 	}
+
 	.mi-resume-project-wrapper {
 		margin-left: 30px;
 		display: none;
+
 		&.show {
 			display: block;
 		}
+
 		.mi-resume-project {
 			margin-bottom: 10px;
 			max-width: 100%;
 			border-bottom: 1px solid #037fff;
+
 			&:last-child {
 				border-bottom: none;
 			}
+
 			.field {
 				margin-bottom: 10px;
+
 				span:first-child {
 					color: #ffffff;
 					margin-right: 10px;
 				}
 			}
 		}
-}
+	}
 }
 
 .light .project-involve-wrapper .mi-resume-project-wrapper .mi-resume-project .field span:first-child {
-	color : #037fff;
+	color: #037fff;
 	font-weight: bold;
+}
+
+.mi-progress-line-divider {
+	position: absolute;
+	left: 49.998%;
+	top: 0px;
+	width: 2px;
+	height: 6px;
+	background-color: #10121b;
+	&.d1 {
+		left: 16.666%;
+	}
+	&.d2 {
+		left: 33.332%;
+	}
+	&.d3 {
+		left: 49.998%;
+	}
+	&.d4 {
+		left: 66.664%;
+	}
+	&.d5 {
+		left: 83.330%;
+	}
+}
+
+.light .mi-progress-line-divider {
+	background-color: #ffffff;
+}
+
+.cert-btn2 {
+	margin-left: 40px;
+}
+
+@media only screen and (max-width: 638px) {
+	.cert-btn1 {
+		margin: 20px 0 30px;
+	}
+	.cert-btn2 {
+		margin-left: 0px;
+	}
 }

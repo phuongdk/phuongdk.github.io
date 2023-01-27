@@ -19,13 +19,13 @@ function Project(props) {
       <div className='mi-portfolio-image'>
         <img src={imageUrl} alt={title} />
         <ul>
-          {!largeImageUrl ? null : (
+          {/* {!largeImageUrl ? null : (
             <li>
               <button onClick={() => handleToggler(!toggler)}>
                 <Icon.ZoomIn />
               </button>
             </li>
-          )}
+          )} */}
           {url ? (
             <li>
               <a rel='noopener noreferrer' target='_blank' href={url}>

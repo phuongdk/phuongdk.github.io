@@ -82,7 +82,7 @@ function About() {
                   My name is{' '}
                   <span className='color-theme'>{information.name_vi}</span>
                 </h3>
-                <p>{information.aboutContent}</p>
+                <p style={{ textAlign: 'justify' }}>{information.aboutContent}</p>
                 <ul>
                   {!information.name ? null : (
                     <li>
@@ -134,28 +134,40 @@ function About() {
                     <b>Personalities</b> {information.personality}
                   </li>
                 </ul>
-                <a
-                  href={information.cvfile}
-                  rel='noopener noreferrer'
-                  target='_blank'
-                  className='mi-button'
-                >
-                  Inspect CV
-                </a>
-                <a
-                  style={{ marginLeft: '40px' }}
-                  href={information.cert1}
-                  rel='noopener noreferrer'
-                  target='_blank'
-                  className='mi-button'
-                >
-                  Inspect IELTS CERTIFICATE
-                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
+      {/* <!-- CERT AREA --> */}
+      <div
+        className='cert-area mi-section mi-padding-top'
+      >
+        <div className='container'>
+          <Sectiontitle title='Certifications' />
+          <div className='mi-service-wrapper'>
+            <div className='mt-30-reverse'>
+              <a
+                href={information.cvfile}
+                rel='noopener noreferrer'
+                target='_blank'
+                className='mi-button cert-btn1'
+              >
+                Inspect CV
+              </a>
+              <a
+                href={information.cert1}
+                rel='noopener noreferrer'
+                target='_blank'
+                className='mi-button cert-btn2'
+              >
+                Inspect IELTS CERTIFICATE
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <!-- SERVICE AREA --> */}
       <div
         className='mi-service-area mi-section mi-padding-top'
         style={{ marginBottom: '40px' }}

@@ -2,19 +2,19 @@ import Mock from '../mock';
 
 const database = {
   information: {
-    name: 'Phuong Do Ky',
+    name: 'Do Ky Phuong',
     name_vi: 'Do Ky Phuong',
     aboutHome:
       'I am a Software Engineer. I can tackle with both front-end and back-end issues. I can provide clean code and work with data structures as well.',
     aboutContent:
-      'I am a software engineer who excels in web and react native development. I am also passionate about building applications in javascript and nodejs platform. I prefer talking about tech discussions and surfing tech groups like topdev, techtalk, medium... when I have free time to comprehend as well as update knowledge from the communities.',
+      'I am a Software Engineer who excels in web and cross-platform mobile development. I am passionate about building applications in javascript and python platform. I prefer talking about tech discussions and surfing tech groups like reddit, dev.to, medium... when I have free time to comprehend as well as update knowledge from the communities.',
     dob: '17 / 03 / 1993',
     phone: '',
     nationality: 'Viet Nam',
     language: 'Vietnamese, English',
     hobby: 'Tech discussion, books, games, traveling, cuisine',
     personality: 'gentle, harmony',
-    experience: '4 years',
+    experience: '6 years',
     email: '',
     address: '',
     socialLinks: {
@@ -34,74 +34,78 @@ const database = {
   },
   services: [
     {
-      title: 'Web Design',
-      icon: 'color-pallet',
+      title: 'AWS Developer Associate',
+      icon: 'aws',
     },
     {
-      title: 'Web Development',
+      title: 'FE & BE Web Development',
       icon: 'code',
     },
     {
-      title: 'React Native Mobile Application',
+      title: 'React Native Development',
       icon: 'mobile',
     },
   ],
   skills: [
     {
-      title: 'HTML5 / CSS3 / Javascript ES8',
-      level: 'Good',
-      value: 80,
+      title: 'HTML5 / CSS3 / Javascript ESNext',
+      level: '6 YoE',
+      value: 100,
     },
     {
-      title: 'React / React Native',
-      level: 'Good',
-      value: 80,
+      title: 'React',
+      level: '3 YoE',
+      value: 50,
+    },
+    {
+      title: 'React Native',
+      level: '1 YoE',
+      value: 16.666,
     },
     {
       title: 'Angular',
-      level: 'Good',
-      value: 80,
+      level: '2 YoE',
+      value: 33.332,
     },
     {
-      title: 'Electron',
-      level: 'Normal',
-      value: 60,
+      title: 'Vuejs',
+      level: '1 YoE',
+      value: 16.666,
     },
     {
-      title: 'Nodejs / Express',
-      level: 'Good',
-      value: 80,
+      title: 'Nodejs (Express, Nest)',
+      level: '3 YoE',
+      value: 50,
     },
     {
-      title: 'PHP / Code Igniter / Laravel',
-      level: 'Normal',
-      value: 60,
+      title: 'Python (Flask, Boto3)',
+      level: '2 YoE',
+      value: 33.332,
     },
     {
-      title: 'Python / Flask',
-      level: 'Normal',
-      value: 60,
+      title: 'Docker',
+      level: '1 YoE',
+      value: 16.666,
     },
     {
-      title: 'Docker / Docker compose',
-      level: 'Normal',
-      value: 60,
+      title: 'Kubernetes',
+      level: '6 months',
+      value: 8.333,
     },
     {
-      title: 'Gitlab CI/CD',
-      level: 'Normal',
-      value: 60,
+      title: 'Gitlab CI / CD',
+      level: '1 YoE',
+      value: 16.666,
     },
     {
-      title: 'Support tools: Git, Jira, Trello, Slack, Postman, Vagrant',
-      level: 'Normal',
-      value: 60,
+      title: 'Amazon Web Services',
+      level: '1 YoE',
+      value: 16.666,
     },
     {
-      title:
-        'Third party services: Google firebase; AWS: S3, DynamoDB, Elastic Beanstalk',
-      level: 'Normal',
-      value: 60,
+      title: 'Familiar with these support tools: Github, Gitlab, Bitbucket, Jira, Confluence, Trello, Slack, Postman',
+      level: '',
+      value: 0,
     },
   ],
   experience: {
@@ -109,7 +113,7 @@ const database = {
       {
         id: 1,
         year: '2016 - 2017',
-        position: 'Theme and Plug-in Developer',
+        position: 'CMS Developer',
         company: 'BrainOS',
         companyLink: 'https://brainos.vn/',
         details:

@@ -13,7 +13,6 @@ function UniversityProjects() {
   useEffect(() => {
     let mounted = true;
     axios.get('/api/uProjects').then((response) => {
-      console.log('response', response)
       if (mounted) {
         setUProjects(response.data);
       }

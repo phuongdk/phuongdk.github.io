@@ -139,7 +139,7 @@
   }
 
   .light-mode {
-    background: rgba(#000000, 0.5);
+    background: #4ea3fb;
 
     .icon {
       svg {
@@ -433,6 +433,9 @@
 
     &-company {
       color: $light-color-heading;
+      &:hover {
+        color: $light-color-theme;
+      }
     }
 
     &-details {
