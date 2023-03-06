@@ -125,7 +125,7 @@ function About() {
                     </li>
                   )}
                   <li>
-                    <b>Experience</b> {information.experience}
+                    <b>Experience</b> <span dangerouslySetInnerHTML={{ __html: information.experience }} />
                   </li>
                   <li>
                     <b>Hobbies</b> {information.hobby}
@@ -155,13 +155,28 @@ function About() {
               >
                 Inspect CV
               </a>
+            </div>
+            <div style={{marginTop: "40px"}}>
               <a
                 href={information.cert1}
                 rel='noopener noreferrer'
                 target='_blank'
-                className='mi-button cert-btn2'
               >
-                Inspect IELTS CERTIFICATE
+                <img src={information.cert1Image} alt="certification" />
+              </a>
+              <a
+                href={information.cert2}
+                rel='noopener noreferrer'
+                target='_blank'
+              >
+                <img src={information.cert2Image} width="150" height="150" alt="certification" />
+              </a>
+              <a
+                href={information.cert3}
+                rel='noopener noreferrer'
+                target='_blank'
+              >
+                <img src={information.cert3Image} width="150" height="150" alt="certification" />
               </a>
             </div>
           </div>

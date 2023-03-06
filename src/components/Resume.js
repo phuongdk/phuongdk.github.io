@@ -44,32 +44,51 @@ function Resume(props) {
               Projects involved
             </h5>
             <div
-              className={`mi-resume-wrapper mi-resume-project-wrapper ${
-                dropdownOpen ? 'show' : ''
-              }`}
+              className={`mi-resume-wrapper mi-resume-project-wrapper ${dropdownOpen ? 'show' : ''
+                }`}
             >
               {projects.map((project, index) => (
                 <div
                   key={index}
                   className='mi-resume-summary mi-resume-project'
                 >
+                  <div className='field customer'>
+                    <div>Customer:</div>
+                    <div>{project.customer}</div>
+                  </div>
                   <div className='field name'>
-                    <span>Project about:</span>
-                    <span>{project.name}</span>
+                    <div>Project about:</div>
+                    <div>{project.name}</div>
+                  </div>
+                  <div className='field teamSize'>
+                    <div>Team Size:</div>
+                    <div>{project.teamSize}</div>
+                  </div>
+                  <div className='field domain'>
+                    <div>Domain:</div>
+                    <div>{project.domain}</div>
                   </div>
                   {project.description && (
                     <div className='field description'>
-                      <span>Description:</span>
-                      <span>{project.description}</span>
+                      <div>Description:</div>
+                      <div>{project.description}</div>
+                    </div>
+                  )}
+                  {project.architecture && (
+                    <div className='field architecture'>
+                      <div>Architecture:</div>
+                      <div>{project.architecture}</div>
                     </div>
                   )}
                   <div className='field technology'>
-                    <span>Technologies applied:</span>
-                    <span>{project.technologies}</span>
+                    <div>Technologies:</div>
+                    <div>{project.technologies}</div>
                   </div>
                   <div className='field responsibility'>
-                    <span>Responsibility:</span>
-                    <span>{project.responsibility}</span>
+                    <div>Responsibilities:</div>
+                    <div
+                      dangerouslySetInnerHTML={{ __html: project.responsibilities }}
+                    />
                   </div>
                 </div>
               ))}

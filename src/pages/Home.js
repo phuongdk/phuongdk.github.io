@@ -138,10 +138,10 @@ function Home({ lightMode }) {
   return (
     <Layout>
       <Helmet>
-        <title>Phuongdk's Portfolio</title>
+        <title>Phuong Do Ky's Portfolio</title>
         <meta
           name='description'
-          content="Phuongdk's Portfolio"
+          content="Phuong Do Ky's Portfolio"
         />
       </Helmet>
       <Suspense fallback={<Spinner />}></Suspense>
