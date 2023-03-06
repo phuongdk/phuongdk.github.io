@@ -72,9 +72,43 @@
 			.field {
 				margin-bottom: 10px;
 
-				span:first-child {
+				div:first-child {
+					display: inline-block;
+					width: 20%;
 					color: #ffffff;
-					margin-right: 10px;
+					vertical-align: top;
+				}
+
+				div:nth-child(2) {
+					display: inline-block;
+					width: 80%;
+					vertical-align: top;
+
+					>ul>li {
+						margin-bottom: 5px;
+					}
+
+					.feature-branches {
+						>li {
+							margin-bottom: 5px;
+							font-weight: bold;
+							color: #068e16;
+						}
+					}
+				}
+
+				&.responsibility div:nth-child(2) {
+					ul {
+						margin: 0;
+						padding-left: 18px;
+					}
+				}
+
+				@media only screen and (max-width: 1430px) {
+					>div {
+						display: block !important;
+						width: 100% !important;
+					}
 				}
 			}
 		}
@@ -83,7 +117,8 @@
 
 .light .project-involve-wrapper .mi-resume-project-wrapper .mi-resume-project {
 	border-color: $light-color-theme;
-	.field span:first-child {
+
+	.field div:first-child {
 		color: $light-color-theme;
 		font-weight: bold;
 	}
@@ -91,25 +126,37 @@
 
 .mi-progress-line-divider {
 	position: absolute;
-	left: 49.998%;
 	top: 0px;
 	width: 2px;
 	height: 6px;
 	background-color: #10121b;
+
 	&.d1 {
-		left: 16.666%;
+		left: 14.29%;
 	}
+
 	&.d2 {
-		left: 33.332%;
+		left: 28.58%;
 	}
+
 	&.d3 {
-		left: 49.998%;
+		left: 42.87%;
 	}
+
 	&.d4 {
-		left: 66.664%;
+		left: 57.16%;
 	}
+
 	&.d5 {
-		left: 83.330%;
+		left: 71.45%;
+	}
+
+	&.d6 {
+		left: 85.74%;
+	}
+
+	&.d7 {
+		left: 100%;
 	}
 }
 
@@ -117,16 +164,24 @@
 	background-color: #ffffff;
 }
 
-.cert-btn2 {
+.cert-btn-next {
 	margin-left: 40px;
 }
 
-@media only screen and (max-width: 638px) {
+@media only screen and (max-width: 1000px) {
 	.cert-btn1 {
+		display: block;
+		width: auto;
+		max-width: 180px;
 		margin: 20px 0 30px;
 	}
-	.cert-btn2 {
+
+	.cert-btn-next {
+		display: block;
+		width: auto;
+		max-width: 300px;
 		margin-left: 0px;
+		margin-bottom: 30px;
 	}
 }
 
@@ -140,9 +195,11 @@
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz--transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
+
 	.mi-progress-title {
 		cursor: default;
 	}
+
 	.additional-info {
 		cursor: default;
 		visibility: hidden;
@@ -167,11 +224,14 @@
 		-moz--transition: opacity 0.6s ease-in-out;
 		-o-transition: opacity 0.6s ease-in-out;
 	}
+
 	&:hover {
 		z-index: 99;
+
 		.mi-progress-title {
 			color: $light-color-theme;
 		}
+
 		.additional-info {
 			visibility: visible;
 			opacity: 1;
@@ -196,6 +256,7 @@
 
 .mi-blog {
 	position: relative;
+
 	.mi-link-reference-wrapper {
 		display: flex;
 		position: absolute;
@@ -216,10 +277,12 @@
 		-webkit-transition: all 0.5s ease-in-out;
 		-moz--transition: all 0.5s ease-in-out;
 		-o-transition: all 0.5s ease-in-out;
+
 		div a:hover {
 			color: #ffffff;
 		}
 	}
+
 	&:hover {
 		.mi-link-reference-wrapper {
 			visibility: visible;
@@ -236,8 +299,10 @@
 		.mi-link-reference-wrapper {
 			background-color: #ffffff;
 			border-color: transparent;
+
 			div a {
 				color: $light-color-theme;
+
 				&:hover {
 					text-decoration: underline;
 				}

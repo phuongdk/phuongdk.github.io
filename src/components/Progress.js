@@ -23,6 +23,8 @@ function Progress(props) {
             className='mi-progress-line-divider d4'></span>
           <span
             className='mi-progress-line-divider d5'></span>
+            <span
+            className='mi-progress-line-divider d6'></span>
         </React.Fragment>
       );
     }
@@ -59,7 +61,7 @@ function Progress(props) {
       {
         props.additionalInfo && (
           <div className={`additional-info`}>
-            Familiar with:
+            Familiar with the following:
             <div
               dangerouslySetInnerHTML={{ __html: props.additionalInfo }}
             />

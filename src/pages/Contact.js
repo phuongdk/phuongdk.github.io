@@ -113,15 +113,28 @@ function Contact() {
                     <div className='mi-contact-infoblock-content'>
                       <h6>Phone</h6>
                       {phoneNumbers.map((phoneNumber) => (
-                        <p key={phoneNumber}>
-                          <a href={numberFormatter(phoneNumber)}>
-                            {phoneNumber}
-                          </a>
-                        </p>
+                        <a key={phoneNumber} href={numberFormatter(phoneNumber)}>
+                          {phoneNumber}
+                        </a>
                       ))}
                     </div>
                   </div>
                 )}
+                <div className='mi-contact-infoblock'>
+                  <span className='mi-contact-infoblock-icon'>
+                    <Icon.PhoneCall />
+                  </span>
+                  <div className='mi-contact-infoblock-content'>
+                    <div className='whatsapp-btn-wrapper' style={{position: 'relative', top: '0px', width: '300px'}}>
+                      <a
+                        aria-label="Chat on WhatsApp"
+                        href="https://wa.me/84393167157?text=Hello">
+                        <img alt="Chat on WhatsApp"
+                          src="/images/WhatsAppButtonGreenLarge.png" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
                 {!emailAddress ? null : (
                   <div className='mi-contact-infoblock'>
                     <span className='mi-contact-infoblock-icon'>
@@ -130,9 +143,7 @@ function Contact() {
                     <div className='mi-contact-infoblock-content'>
                       <h6>Email</h6>
                       {emailAddress.map((email) => (
-                        <p key={email}>
-                          <a href={`mailto:${email}`}>{email}</a>
-                        </p>
+                        <a key={email} href={`mailto:${email}`}>{email}</a>
                       ))}
                     </div>
                   </div>
