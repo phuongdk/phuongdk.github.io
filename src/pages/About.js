@@ -159,9 +159,17 @@ function About() {
                 href={information.cert1}
                 rel='noopener noreferrer'
                 target='_blank'
-                className='mi-button cert-btn2'
+                className='mi-button cert-btn-next'
               >
                 Inspect IELTS CERTIFICATE
+              </a>
+              <a
+                href={information.cert2}
+                rel='noopener noreferrer'
+                target='_blank'
+                className='mi-button cert-btn-next'
+              >
+                Inspect AWS CERTIFICATE
               </a>
             </div>
           </div>

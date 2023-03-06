@@ -14,7 +14,7 @@ const database = {
     language: 'Vietnamese, English',
     hobby: 'Tech discussion, books, games, traveling, cuisine',
     personality: 'gentle, harmony',
-    experience: '6 years',
+    experience: '7 years overall, 6 years with modern application development',
     email: '',
     address: '',
     socialLinks: {
@@ -26,15 +26,16 @@ const database = {
       github: 'https://github.com',
       linkedin: '',
     },
-    brandImage: '/images/brand-image.jpg',
+    brandImage: '/images/portrait.jpg',
     aboutImage: '/images/about-image.jpg',
     aboutImageLg: '/images/about-image-lg.jpg',
-    cvfile: 'http://phuongdk.com/cv_sub.jpg',
-    cert1: 'http://phuongdk.com/ielts_cert.jpg',
+    cvfile: 'http://phuongdk.com/images/cv_dkp.jpg',
+    cert1: 'http://phuongdk.com/images/ielts_cert.jpg',
+    cert2: 'https://www.credly.com/badges/bf6b012a-bc7b-4872-bc84-8a45124c3048/linked_in_profile'
   },
   services: [
     {
-      title: 'AWS Developer Associate',
+      title: 'AWS Cloud Development',
       icon: 'aws',
     },
     {
@@ -42,7 +43,7 @@ const database = {
       icon: 'code',
     },
     {
-      title: 'React Native Development',
+      title: 'Hybrid Mobile Development',
       icon: 'mobile',
     },
   ],
@@ -111,7 +112,18 @@ const database = {
       title: 'Amazon Web Services',
       level: '1 YoE',
       value: 16.666,
-      additionalInfo: ''
+      additionalInfo: '\
+      <ul><li>IAM</li>\
+      <li>VPC</li>\
+      <li>Route53</li>\
+      <li>EC2</li>\
+      <li>S3</li>\
+      <li>ELB</li>\
+      <li>SQS</li>\
+      <li>Lambda</li>\
+      <li>API Gateway</li>\
+      </ul>\
+      '
     },
     {
       title: 'Support tools...',
@@ -176,13 +188,13 @@ const database = {
           {
             name: 'Hotel, restaurant, spa,... management system',
             description: 'Micro-services architecture',
-            technologies: 'React, Redux, Ant-design, Dva, Typescript, Node/Express, MongoDB, Apache Kafka message broker',
+            technologies: 'React, Redux, Ant-design, Dva, Typescript, Node/Express, MongoDB, Apache Kafka message streaming',
             responsibility: 'Front-end & Back-end development',
           },
           {
             name: 'E-Commerce Ticketing system',
             description: 'Micro-services architecture',
-            technologies: 'Vuejs, Vuex, Nodejs/Nest, Typescript, MaterialUI, MongoDB, NATS message broker',
+            technologies: 'Vuejs, Vuex, Nodejs/Nest, Typescript, MaterialUI, MongoDB, NATS message streaming',
             responsibility: 'Front-end & Back-end development',
           },
         ],
@@ -206,7 +218,7 @@ const database = {
             name: 'Remote Botware Integrated System',
             description: 'Monolithic architecture',
             technologies:
-              'Angular 8, Rxjs, Typescript, Electron, Python / Flask, MongoDB, Grpc, Docker, Gitlab CI / CD',
+              'Angular 8, Rxjs, Typescript, Electron, Python / Flask, MongoDB, gRPC, Docker, Gitlab CI / CD',
             responsibility:
               'Front-end & Back-end development, setup Gitlab CI / CD pipeline',
           },
@@ -214,7 +226,7 @@ const database = {
       },
       {
         id: 4,
-        year: 'Jun 2021 - Mar 2023',
+        year: 'Jun 2021 - Now',
         position: 'Senior Software Engineer Team Lead',
         company: 'HCL Technologies',
         companyLink: 'https://www.hcltech.com/',
@@ -270,11 +282,11 @@ const database = {
       download: false,
       createDay: '1',
       createMonth: 'June',
-      createYear: '2020',
+      createYear: '2021',
     },
     // {
     //   id: 2,
-    //   title: 'React Dumbo Chat Application',
+    //   title: 'Vue Tiny Sketch Application',
     //   featuredImage: '/images/tiny-sketch.jpg',
     //   link: 'https://tiny-sketch-app.phuongdk.io',
     //   download: false,
@@ -330,13 +342,13 @@ const database = {
       download: false,
       createDay: '1',
       createMonth: 'November',
-      createYear: '2020',
+      createYear: '2021',
     },
     {
       id: 5,
       title: 'Electron CPU Monitor Application for Windows',
       featuredImage: '/images/cpu-monitor-bg1.jpg',
-      link: 'http://phuongdk.com/cpu-monitor-app/CpuMonitor Setup 1.0.0.exe',
+      link: 'http://phuongdk.com/cpu-monitor-app/CpuMonitor-Setup-1.0.0.exe',
       download: true,
       createDay: '1',
       createMonth: 'October',
@@ -350,7 +362,7 @@ const database = {
       download: false,
       createDay: '1',
       createMonth: 'January',
-      createYear: '2016',
+      createYear: '2017',
     },
     {
       id: 7,
@@ -360,7 +372,7 @@ const database = {
       download: false,
       createDay: '1',
       createMonth: 'April',
-      createYear: '2016',
+      createYear: '2017',
     },
     {
       id: 8,
@@ -370,7 +382,7 @@ const database = {
       download: false,
       createDay: '1',
       createMonth: 'June',
-      createYear: '2016',
+      createYear: '2017',
     },
   ],
   universityProjects: [

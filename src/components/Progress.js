@@ -59,7 +59,7 @@ function Progress(props) {
       {
         props.additionalInfo && (
           <div className={`additional-info`}>
-            Familiar with:
+            Familiar with the following:
             <div
               dangerouslySetInnerHTML={{ __html: props.additionalInfo }}
             />
