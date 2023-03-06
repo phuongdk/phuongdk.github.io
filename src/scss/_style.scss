@@ -117,16 +117,23 @@
 	background-color: #ffffff;
 }
 
-.cert-btn2 {
+.cert-btn-next {
 	margin-left: 40px;
 }
 
-@media only screen and (max-width: 638px) {
+@media only screen and (max-width: 1000px) {
 	.cert-btn1 {
+		display: block;
+		width: auto;
+		max-width: 180px;
 		margin: 20px 0 30px;
 	}
-	.cert-btn2 {
+	.cert-btn-next {
+		display: block;
+		width: auto;
+		max-width: 300px;
 		margin-left: 0px;
+		margin-bottom: 30px;
 	}
 }
 

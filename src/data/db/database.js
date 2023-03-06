@@ -14,7 +14,7 @@ const database = {
     language: 'Vietnamese, English',
     hobby: 'Tech discussion, books, games, traveling, cuisine',
     personality: 'gentle, harmony',
-    experience: '6 years',
+    experience: '7 years overall, 6 years with modern application development',
     email: '',
     address: '',
     socialLinks: {
@@ -29,12 +29,13 @@ const database = {
     brandImage: '/images/brand-image.jpg',
     aboutImage: '/images/about-image.jpg',
     aboutImageLg: '/images/about-image-lg.jpg',
-    cvfile: 'http://phuongdk.com/cv_sub.jpg',
-    cert1: 'http://phuongdk.com/ielts_cert.jpg',
+    cvfile: 'http://phuongdk.com/images/cv_dkp.jpg',
+    cert1: 'http://phuongdk.com/images/ielts_cert.jpg',
+    cert2: 'https://www.credly.com/badges/bf6b012a-bc7b-4872-bc84-8a45124c3048/linked_in_profile'
   },
   services: [
     {
-      title: 'AWS Developer Associate',
+      title: 'AWS Cloud Development',
       icon: 'aws',
     },
     {
@@ -42,7 +43,7 @@ const database = {
       icon: 'code',
     },
     {
-      title: 'React Native Development',
+      title: 'Hybrid Mobile Development',
       icon: 'mobile',
     },
   ],
@@ -176,13 +177,13 @@ const database = {
           {
             name: 'Hotel, restaurant, spa,... management system',
             description: 'Micro-services architecture',
-            technologies: 'React, Redux, Ant-design, Dva, Typescript, Node/Express, MongoDB, Apache Kafka message broker',
+            technologies: 'React, Redux, Ant-design, Dva, Typescript, Node/Express, MongoDB, Apache Kafka message streaming',
             responsibility: 'Front-end & Back-end development',
           },
           {
             name: 'E-Commerce Ticketing system',
             description: 'Micro-services architecture',
-            technologies: 'Vuejs, Vuex, Nodejs/Nest, Typescript, MaterialUI, MongoDB, NATS message broker',
+            technologies: 'Vuejs, Vuex, Nodejs/Nest, Typescript, MaterialUI, MongoDB, NATS message streaming',
             responsibility: 'Front-end & Back-end development',
           },
         ],
@@ -214,33 +215,12 @@ const database = {
       },
       {
         id: 4,
-        year: 'Jun 2021 - Mar 2023',
+        year: 'Jun 2021 - Now',
         position: 'Senior Software Engineer Team Lead',
         company: 'HCL Technologies',
         companyLink: 'https://www.hcltech.com/',
         details:
           'Working with United Oversea Bank in Singapore, leading bank in Asia with a global network of more than 500 offices in 19 countries and territories in multiple projects.',
-        projects: [
-          {
-            name: 'BB CASA(Current Account and Savings Account)',
-            description: 'Monolithic architecture',
-            technologies: 'React, React-query, redux-toolkit, Nodejs, PostgreSQL',
-            responsibility: 'Front-end development & Back-end development',
-          },
-          {
-            name: 'Car Loan Management System',
-            description: 'Monolithic architecture',
-            technologies: 'Vue 3, Vuex 4, Vue Router 4',
-            responsibility: 'Front-end development',
-          },
-          {
-            name: 'Artifact Management System',
-            description: 'AWS architecture',
-            technologies: 'Python Boto3, AWS Route53, AWS VPC, AWS RDS, AWS S3, AWS EC2,...',
-            responsibility:
-              'Migrate the system from on-premise to cloud-base in AWS, using python for interacting with AWS resources',
-          },
-        ],
       },
     ],
     educationExperience: [
@@ -270,11 +250,11 @@ const database = {
       download: false,
       createDay: '1',
       createMonth: 'June',
-      createYear: '2020',
+      createYear: '2021',
     },
     // {
     //   id: 2,
-    //   title: 'React Dumbo Chat Application',
+    //   title: 'Vue Tiny Sketch Application',
     //   featuredImage: '/images/tiny-sketch.jpg',
     //   link: 'https://tiny-sketch-app.phuongdk.io',
     //   download: false,
@@ -330,13 +310,13 @@ const database = {
       download: false,
       createDay: '1',
       createMonth: 'November',
-      createYear: '2020',
+      createYear: '2021',
     },
     {
       id: 5,
       title: 'Electron CPU Monitor Application for Windows',
       featuredImage: '/images/cpu-monitor-bg1.jpg',
-      link: 'http://phuongdk.com/cpu-monitor-app/CpuMonitor Setup 1.0.0.exe',
+      link: 'http://phuongdk.com/cpu-monitor-app/CpuMonitor-Setup-1.0.0.exe',
       download: true,
       createDay: '1',
       createMonth: 'October',
@@ -350,7 +330,7 @@ const database = {
       download: false,
       createDay: '1',
       createMonth: 'January',
-      createYear: '2016',
+      createYear: '2017',
     },
     {
       id: 7,
@@ -360,7 +340,7 @@ const database = {
       download: false,
       createDay: '1',
       createMonth: 'April',
-      createYear: '2016',
+      createYear: '2017',
     },
     {
       id: 8,
@@ -370,7 +350,7 @@ const database = {
       download: false,
       createDay: '1',
       createMonth: 'June',
-      createYear: '2016',
+      createYear: '2017',
     },
   ],
   universityProjects: [
