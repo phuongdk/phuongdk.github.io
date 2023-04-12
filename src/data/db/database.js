@@ -232,27 +232,6 @@ const database = {
         companyLink: 'https://www.hcltech.com/',
         details:
           'Working with United Oversea Bank in Singapore, leading bank in Asia with a global network of more than 500 offices in 19 countries and territories in multiple projects.',
-        projects: [
-          {
-            name: 'BB CASA(Current Account and Savings Account)',
-            description: 'Monolithic architecture',
-            technologies: 'React, React-query, redux-toolkit, Nodejs, PostgreSQL',
-            responsibility: 'Front-end development & Back-end development',
-          },
-          {
-            name: 'Car Loan Management System',
-            description: 'Monolithic architecture',
-            technologies: 'Vue 3, Vuex 4, Vue Router 4',
-            responsibility: 'Front-end development',
-          },
-          {
-            name: 'Artifact Management System',
-            description: 'AWS architecture',
-            technologies: 'Python Boto3, AWS Route53, AWS VPC, AWS RDS, AWS S3, AWS EC2,...',
-            responsibility:
-              'Migrate the system from on-premise to cloud-base in AWS, using python for interacting with AWS resources',
-          },
-        ],
       },
     ],
     educationExperience: [
