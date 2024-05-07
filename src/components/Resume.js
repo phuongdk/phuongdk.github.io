@@ -53,8 +53,8 @@ function Resume(props) {
                   className='mi-resume-summary mi-resume-project'
                 >
                   <div className='field customer'>
-                    <div>Customer:</div>
-                    <div>{project.customer}</div>
+                    <div>Client:</div>
+                    <div>{project.client}</div>
                   </div>
                   <div className='field name'>
                     <div>Project about:</div>

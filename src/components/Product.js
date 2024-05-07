@@ -26,10 +26,14 @@ function Product(props) {
         >
           <img src={featuredImage} alt={title} />
         </a>
-        <div className='mi-blog-date'>
-          <span className='month'>{getShortMonth(createMonth)}</span>
-          <span className='year'>{createYear}</span>
-        </div>
+        {
+          createMonth && createYear && (
+            <div className='mi-blog-date'>
+              <span className='month'>{getShortMonth(createMonth)}</span>
+              <span className='year'>{createYear}</span>
+            </div>
+          )
+        }
       </div>
       <div className='mi-blog-content'>
         <h5>

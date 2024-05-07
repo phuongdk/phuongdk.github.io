@@ -29,7 +29,7 @@ const database = {
     brandImage: '/images/portrait.jpg',
     aboutImage: '/images/about-image.jpg',
     aboutImageLg: '/images/about-image-lg.jpg',
-    cvfile: 'http://phuongdk.com/images/cv.pdf',
+    cvfile: 'http://phuongdk.com/images/cvm.pdf',
     cert1: 'http://phuongdk.com/images/ielts_cert.jpg',
     cert1Image: '/images/ielts-badge.png',
     cert2: 'https://www.credly.com/badges/a52f4f5a-1a13-425f-a97a-08d3d50ce505/linked_in_profile',
@@ -152,7 +152,7 @@ const database = {
         <ul>',
         projects: [
           {
-            customer: 'Singaporean',
+            client: 'ANZ',
             name: 'Artifact Management System',
             teamSize: '4 members',
             domain: 'E-commerce (auction)',
@@ -164,7 +164,7 @@ const database = {
             <li>Setup VPC</li>\
             <li>Setup Frontend project structure</li>\
             <li>Setup serverless architecture</li>\
-            <li>Setup code commit</li>\
+            <li>Setup Frontend pipeline</li>\
             <li>Implement features using python boto3 Lambda functions:\
             <ul class="feature-branches">\
             <li>FE implementation</li>\
@@ -183,7 +183,7 @@ const database = {
             </ul>'
           },
           {
-            customer: 'Singaporean',
+            client: 'UOB',
             name: 'Loan Management System',
             teamSize: '6 members',
             domain: 'Banking',
@@ -214,7 +214,7 @@ const database = {
             </ul>'
           },
           {
-            customer: 'Singaporean and Asia region',
+            client: 'UOB',
             name: 'BB CASA(Current Account and Savings Account)',
             teamSize: '6 members',
             domain: 'Banking',
@@ -256,7 +256,7 @@ const database = {
           'Working on Viettel software products, concentrate on Angular, Electron and Python Flask.',
         projects: [
           {
-            customer: 'Viettel',
+            client: 'Viettel',
             name: 'Anti-Fraud Phone Charges System',
             teamSize: '8 members',
             domain: 'Internal product',
@@ -284,7 +284,7 @@ const database = {
             </ul>'
           },
           {
-            customer: 'Viettel',
+            client: 'Viettel',
             name: 'Remote Botware Integrated System',
             teamSize: '15 members',
             domain: 'Internal product',
@@ -325,13 +325,13 @@ const database = {
           'Working on many out-sourcing products for Japanese clients in both front-end and back-end issues.',
         projects: [
           {
-            customer: 'Japanese',
+            client: 'Japanese',
             name: 'Ticketing system',
             teamSize: '8 members',
             domain: 'E-Commerce',
             description: 'Develop a platform to streamline the process of buying tickets for various events, shows, concerts, and attractions',
             architecture: 'Microservices',
-            technologies: 'React, Redux-toolkit, Nodejs/Nest, Typescript, MaterialUI, Bull, Redis, PostgreSql,\
+            technologies: 'Nextjs, React, Redux-toolkit, Nodejs/Nest, Typescript, MaterialUI, Bull, Redis, PostgreSql,\
             Websocket, Cypress, Jest, Docker, K8s, Nginx-ingress, NATS message streaming',
             responsibilities: '\
             <ul>\
@@ -353,14 +353,14 @@ const database = {
             </ul>'
           },
           {
-            customer: 'Japanese',
+            client: 'Japanese',
             name: 'Car booking application',
             teamSize: '6 members',
             domain: 'Transportation and Travel services',
             description: 'Designing and developing a user-friendly and feature-rich platform that allows customers to book rental cars and ride-hailing services',
             architecture: 'Microservices',
             technologies:
-              'React, Mobx-state-tree, React Native, Nextjs, Typescript, Nodejs/Express, Express Gateway, MongoDB,\
+              'React, Mobx-state-tree, React Native, Typescript, Nodejs/Express, Express Gateway, MongoDB,\
               Firebase, GraphQL, Apollo, Twillio, Stripe, Jest, Docker / Docker-compose, K8s, AWS S3, AWS Kinesis Stream',
             responsibilities: '\
             <ul>\
@@ -384,7 +384,7 @@ const database = {
             </ul>'
           },
           {
-            customer: 'Japanese',
+            client: 'Japanese',
             name: 'Hotel, restaurant, spa,... management system',
             teamSize: '20 members',
             domain: 'Hotel and Hospitality',
@@ -402,7 +402,7 @@ const database = {
             </ul>'
           },
           {
-            customer: 'Japanese',
+            client: 'Japanese',
             name: 'Medical management system',
             teamSize: '5 members',
             domain: 'Healthcare',
@@ -419,7 +419,7 @@ const database = {
             </ul>'
           },
           {
-            customer: 'Japanese',
+            client: 'Japanese',
             name: 'E-learning application',
             teamSize: '4 members',
             domain: 'Education',
@@ -437,7 +437,7 @@ const database = {
             </ul>'
           },
           {
-            customer: 'Rikkeisoft',
+            client: 'Rikkeisoft',
             name: 'Skillsheet application',
             teamSize: '3 members',
             domain: 'Internal product',
@@ -460,12 +460,12 @@ const database = {
         year: 'Feb 2016 - Feb 2017',
         position: 'CMS Developer',
         company: 'BrainOS',
-        companyLink: 'https://brainos.vn/',
+        companyLink: 'https://www.linkedin.com/company/brainos/',
         details:
           'Take charge of creating and coding themes and plug-ins on three platforms, namely Wordpress, Shopify and React.',
         projects: [
           {
-            customer: 'ThemeForest market',
+            client: 'ThemeForest market',
             name: 'CMS development',
             teamSize: 'Individual',
             domain: 'CMS market',
@@ -510,9 +510,9 @@ const database = {
       featuredImage: '/images/tiny-sketch-bg.jpg',
       link: 'https://tiny-sketch-app.phuongdk.io',
       download: false,
-      createDay: '1',
-      createMonth: 'Dec',
-      createYear: '2022',
+      // createDay: '1',
+      // createMonth: 'Dec',
+      // createYear: '2022',
     },
     {
       id: 2,
@@ -520,9 +520,9 @@ const database = {
       featuredImage: '/images/dumbo-bg.jpg',
       link: 'https://dumbo-chat-app.phuongdk.io',
       download: false,
-      createDay: '1',
-      createMonth: 'June',
-      createYear: '2021',
+      // createDay: '1',
+      // createMonth: 'June',
+      // createYear: '2021',
     },
     {
       id: 3,
@@ -550,9 +550,9 @@ const database = {
         },
       ],
       download: false,
-      createDay: '1',
-      createMonth: 'August',
-      createYear: '2020',
+      // createDay: '1',
+      // createMonth: 'August',
+      // createYear: '2020',
     },
     {
       id: 4,
@@ -570,9 +570,9 @@ const database = {
         },
       ],
       download: false,
-      createDay: '1',
-      createMonth: 'November',
-      createYear: '2021',
+      // createDay: '1',
+      // createMonth: 'November',
+      // createYear: '2021',
     },
     {
       id: 5,
@@ -580,9 +580,9 @@ const database = {
       featuredImage: '/images/cpu-monitor-bg.jpg',
       link: 'http://phuongdk.com/cpu-monitor-app/CpuMonitor-Setup-1.0.0.exe',
       download: true,
-      createDay: '1',
-      createMonth: 'October',
-      createYear: '2020',
+      // createDay: '1',
+      // createMonth: 'October',
+      // createYear: '2020',
     },
     {
       id: 6,
@@ -590,9 +590,9 @@ const database = {
       featuredImage: '/images/oxygen-bg.jpg',
       link: 'https://ap-oxygen.myshopify.com/',
       download: false,
-      createDay: '1',
-      createMonth: 'January',
-      createYear: '2017',
+      // createDay: '1',
+      // createMonth: 'January',
+      // createYear: '2017',
     },
     {
       id: 7,
@@ -600,9 +600,9 @@ const database = {
       featuredImage: '/images/over-bg.jpg',
       link: 'https://ap-over.myshopify.com/',
       download: false,
-      createDay: '1',
-      createMonth: 'April',
-      createYear: '2017',
+      // createDay: '1',
+      // createMonth: 'April',
+      // createYear: '2017',
     },
     {
       id: 8,
@@ -610,9 +610,9 @@ const database = {
       featuredImage: '/images/casper-bg.jpg',
       link: 'https://ap-cp.myshopify.com/',
       download: false,
-      createDay: '1',
-      createMonth: 'June',
-      createYear: '2017',
+      // createDay: '1',
+      // createMonth: 'June',
+      // createYear: '2017',
     },
   ],
   universityProjects: [

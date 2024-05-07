@@ -55,7 +55,7 @@ function App() {
         <Route path='/hands-on-projects' element={<HandsOnProjects />} />
         <Route path='/university-projects' element={<UniversityProjects />} />
         <Route path='/contact' element={<Contact />} />
-        <Route path='*' element={<Notfound />} />
+        <Route path='*' element={<Home lightMode={lightMode} />} />
       </Routes>
     </BrowserRouter>
   );
