@@ -34,7 +34,7 @@ function Resume(props) {
         >
           {company || university}
         </a>
-        <p>{details}</p>
+        <p dangerouslySetInnerHTML={{ __html: details }}></p>
         {Array.isArray(projects) && projects.length > 0 && (
           <div className='project-involve-wrapper'>
             <h5 className='title' onClick={toggleProjectInvolved}>

@@ -8,13 +8,13 @@ const database = {
       'I am a Software Engineer. I can tackle with both front-end and back-end issues. I can provide clean code and work with data structures as well.',
     aboutContent:
       'I am a Software Engineer who excels in web and cross-platform mobile development. I am passionate about building applications in javascript, python programming languages and AWS platform. I prefer talking about tech discussions and surfing tech groups like medium, dev.to, reddit... when I have free time to comprehend as well as update knowledge from the communities.',
-    dob: '03-17-1993',
+    dob: '17 March 1993',
     phone: '',
     nationality: 'Viet Nam',
     language: 'Vietnamese, English',
     hobby: 'Tech discussion, books, games, traveling, cuisine',
     personality: 'gentle, harmony',
-    experience: '7 years overall in the software industry - application development field',
+    experience: '7+ years overall in the software industry - application development field',
     email: '',
     address: '',
     socialLinks: {
@@ -29,7 +29,7 @@ const database = {
     brandImage: '/images/portrait.jpg',
     aboutImage: '/images/about-image.jpg',
     aboutImageLg: '/images/about-image-lg.jpg',
-    cvfile: 'http://phuongdk.com/images/cv_dkp.pdf',
+    cvfile: 'http://phuongdk.com/images/cv.pdf',
     cert1: 'http://phuongdk.com/images/ielts_cert.jpg',
     cert1Image: '/images/ielts-badge.png',
     cert2: 'https://www.credly.com/badges/a52f4f5a-1a13-425f-a97a-08d3d50ce505/linked_in_profile',
@@ -76,12 +76,12 @@ const database = {
       value: 28.58,
       additionalInfo: '<ul><li>Angular 14, Typescript</li><li>Rxjs</li><li>Angular Universal</li></ul>'
     },
-    {
-      title: 'Vuejs',
-      level: '2 YoE',
-      value: 28.58,
-      additionalInfo: '<ul><li>Vue 3</li><li>Vuex 4, Pinia</li><li>Vuex Router 4</li></ul>'
-    },
+    // {
+    //   title: 'Vuejs',
+    //   level: '2 YoE',
+    //   value: 28.58,
+    //   additionalInfo: '<ul><li>Vue 3</li><li>Vuex 4, Pinia</li><li>Vuex Router 4</li></ul>'
+    // },
     {
       title: 'Nodejs',
       level: '4 YoE',
@@ -107,26 +107,26 @@ const database = {
       additionalInfo: ''
     },
     {
-      title: 'Gitlab CI / CD',
-      level: '1 YoE',
-      value: 14.29,
-      additionalInfo: ''
-    },
-    {
       title: 'Amazon Web Services',
-      level: '2 YoE',
-      value: 28.58,
+      level: '1.5 YoE',
+      value: 21.44,
       additionalInfo: '\
       <ul><li>IAM</li>\
       <li>VPC</li>\
       <li>Route53</li>\
       <li>EC2</li>\
       <li>S3</li>\
-      <li>ELB</li>\
       <li>SQS</li>\
       <li>SNS</li>\
       <li>Lambda</li>\
       <li>API Gateway</li>\
+      <li>Cognito</li>\
+      <li>Cloudfront</li>\
+      <li>DynamoDB</li>\
+      <li>SAM</li>\
+      <li>Amplify</li>\
+      <li>Kinesis</li>\
+      <li>Cloudwatch</li>\
       </ul>\
       '
     },
@@ -134,7 +134,7 @@ const database = {
       title: 'Support tools...',
       level: '',
       value: 0,
-      additionalInfo: '<ul><li>Github, Gitlab, Bitbucket</li><li>Jira, Confluence</li><li>Trello, Slack, Postman</li></ul>'
+      additionalInfo: '<ul><li>Github, Gitlab, Github action, Gitlab CI/CD, Bitbucket</li><li>Jira, Confluence</li><li>Trello, Slack, Postman</li></ul>'
     },
   ],
   experience: {
@@ -145,37 +145,40 @@ const database = {
         position: 'Senior Software Engineer Team Lead',
         company: 'HCL Technologies',
         companyLink: 'https://www.hcltech.com/',
-        details:
-          'Working with United Oversea Bank in Singapore, leading bank in Asia with a global network of more than 500 offices in 19 countries and territories in multiple products, focusing on javascript, python and AWS.',
+        details: '\
+        <ul>\
+        <li>Working with ANZ Bank in Australia, focusing on AWS cloud environment.</li>\
+        <li>Working with United Oversea Bank in Singapore, leading bank in Asia on their products, focusing on javascript, python.</li>\
+        <ul>',
         projects: [
           {
-            customer: 'Singaporean and Asian',
-            name: 'BB CASA(Current Account and Savings Account)',
-            teamSize: '6 members',
-            domain: 'Banking',
-            description: 'Build and manage an application that handle different type of banking accounts across multiple regions',
-            architecture: 'Monolithic client-side approach',
-            technologies: 'React, React-query, Zustand, Python (Flask), Pymongo, MongoDB, Jest, React testing library, Pytest',
+            customer: 'Singaporean',
+            name: 'Artifact Management System',
+            teamSize: '4 members',
+            domain: 'E-commerce (auction)',
+            description: 'Developing and migrating the system from on-premise to cloud-based using AWS platform',
+            architecture: 'Serverless',
+            technologies: 'Route53, VPC, NGW, IGW, Amplify, React, React-query, Zustand, Jest, Playwright, API Gateway, Python Boto3, Lambda, DynamoDB, Cognito, SQS, SAM, S3, Github actions',
             responsibilities: '\
             <ul>\
-            <li>Squad leading</li>\
-            <li>Fullstack development</li>\
-            <li>Provide plan, tasks distribution and estimation</li>\
-            <li>Requirements analysis</li>\
-            <li>Implement features:\
+            <li>Setup VPC</li>\
+            <li>Setup Frontend project structure</li>\
+            <li>Setup serverless architecture</li>\
+            <li>Setup code commit</li>\
+            <li>Implement features using python boto3 Lambda functions:\
             <ul class="feature-branches">\
-            <li>Implement banking account types workflow</li>\
-            <li>Implement credit card for banking account types workflow</li>\
-            <li>Designing form generation workflow depend on account types</li>\
-            <li>Validate Limited Transactions for banking account types</li>\
-            <li>Coordinate datas with other UOB systems using Singpass</li>\
+            <li>FE implementation</li>\
+            <li>Implement CRUD bid items</li>\
+            <li>Implement bid items functionalities</li>\
+            <li>Implement bid items searching and countdown</li>\
+            <li>Setup AWS SQS for biding</li>\
             </ul>\
             </li>\
+            <li>Collaborate with devops engineer for cloud formation and SAM template setup</li>\
             <li>Troubleshooting and bug fixing</li>\
-            <li>Code reviews and team collaboration</li>\
-            <li>Coaching Junior</li>\
-            <li>Write Unit and Component Testings</li>\
-            <li>Production issues response</li>\
+            <li>Tasks distribution</li>\
+            <li>Perform unit testings</li>\
+            <li>System maintaining</li>\
             <li>Daily Scrum process</li>\
             </ul>'
           },
@@ -186,7 +189,7 @@ const database = {
             domain: 'Banking',
             description: 'Developing and maintaining user-friendly loan management system to streamline the lending process and enhance operational efficiency',
             architecture: 'Monolithic client-side approach',
-            technologies: 'Vue 3, Vuex 4, Vue Router 4, Nodejs, Postgresql, Cypress, Pytest',
+            technologies: 'Angular 12, Typescript, Rxjs, Nodejs, PostgreSql, Cypress, Pytest',
             responsibilities: '\
             <ul>\
             <li>Squad leading</li>\
@@ -211,29 +214,33 @@ const database = {
             </ul>'
           },
           {
-            customer: 'Singaporean',
-            name: 'Artifact Management System',
-            teamSize: '3 members',
-            domain: 'E-commerce (auction)',
-            description: 'Migrate the system from on-premise to cloud-based using AWS platform',
-            architecture: 'Serverless',
-            technologies: 'Python Boto3, Route53, VPC, NGW, IGW, API Gateway, Lambda, SQS, SNS, DynamoDB, Amplify, S3',
+            customer: 'Singaporean and Asia region',
+            name: 'BB CASA(Current Account and Savings Account)',
+            teamSize: '6 members',
+            domain: 'Banking',
+            description: 'Build and manage an application that handle different type of banking accounts across multiple regions',
+            architecture: 'Monolithic client-side approach',
+            technologies: 'React, Redux-toolkit, Python (Flask), PostgreSql, Jest, React testing library, Pytest',
             responsibilities: '\
             <ul>\
-            <li>Setup VPC</li>\
-            <li>Setup serverless architecture</li>\
-            <li>Setup code commit</li>\
-            <li>Implement features using python boto3 Lambda function:\
+            <li>Squad leading</li>\
+            <li>Fullstack development</li>\
+            <li>Provide plan, tasks distribution and estimation</li>\
+            <li>Requirements analysis</li>\
+            <li>Implement features:\
             <ul class="feature-branches">\
-            <li>Implement CRUD bid items</li>\
-            <li>Implement bid items functionalities</li>\
-            <li>Implement bid items searching and countdown</li>\
-            <li>Setup AWS SQS for biding</li>\
+            <li>Implement banking account types workflow</li>\
+            <li>Implement credit card for banking account types workflow</li>\
+            <li>Designing form generation workflow depend on account types</li>\
+            <li>Validate Limited Transactions for banking account types</li>\
+            <li>Coordinate datas with other UOB systems using Singpass</li>\
             </ul>\
             </li>\
-            <li>Collaborate with devops engineer for cloud formation and SAM template setup</li>\
             <li>Troubleshooting and bug fixing</li>\
-            <li>System maintaining</li>\
+            <li>Code reviews and team collaboration</li>\
+            <li>Coaching Junior</li>\
+            <li>Write Unit and Component Testings</li>\
+            <li>Production issues response</li>\
             <li>Daily Scrum process</li>\
             </ul>'
           },
@@ -251,11 +258,11 @@ const database = {
           {
             customer: 'Viettel',
             name: 'Anti-Fraud Phone Charges System',
-            teamSize: '10 members',
-            domain: 'Internal',
+            teamSize: '8 members',
+            domain: 'Internal product',
             description: 'Build a system that can detect a fraud or illicit fees that charge from mobiphone',
             architecture: 'Monolithic client-side approach',
-            technologies: 'Angular 8, Rxjs, Typescript, Python / Flask, Pymongo, MongoDB, Pytest, Docker, Gitlab CI / CD',
+            technologies: 'Angular 8, Rxjs, Typescript, Python / Flask, Pymongo, MongoDB, Pytest, Docker, Gitlab CI/CD',
             responsibilities: '\
             <ul>\
             <li>Fullstack development</li>\
@@ -280,11 +287,11 @@ const database = {
             customer: 'Viettel',
             name: 'Remote Botware Integrated System',
             teamSize: '15 members',
-            domain: 'Internal',
+            domain: 'Internal product',
             description: 'Build a bot that can intergrated in many OS(Linux, Windows, MacOS) and be able to control the guest machine from afar',
             architecture: 'Monolithic client-side approach',
             technologies:
-              'Angular 8, Rxjs, Typescript, Electron, Python / Flask, Pymongo, MongoDB, gRPC, Docker, Gitlab CI / CD',
+              'Angular 8, Rxjs, Typescript, Electron, Python / Flask, Pymongo, MongoDB, gRPC, Pytest, Docker, Gitlab CI / CD',
             responsibilities: '\
             <ul>\
             <li>Fullstack development</li>\
@@ -297,6 +304,7 @@ const database = {
             <li>Implement guest machine specification flow</li>\
             <li>Implement terminal remote control flow</li>\
             <li>Implement remote screenshot full-screen capture flow</li>\
+            <li>Coordinate with C++ dev team for bot communication</li>\
             </ul>\
             </li>\
             <li>Troubleshooting and bug fixing</li>\
@@ -323,14 +331,15 @@ const database = {
             domain: 'E-Commerce',
             description: 'Develop a platform to streamline the process of buying tickets for various events, shows, concerts, and attractions',
             architecture: 'Microservices',
-            technologies: 'React, Redux-toolkit, Nodejs/Nest, Typescript, MaterialUI, Bull, Redis, Postgresql, Websocket, Cypress, Jest, Docker, K8s, NATS message streaming',
+            technologies: 'React, Redux-toolkit, Nodejs/Nest, Typescript, MaterialUI, Bull, Redis, PostgreSql,\
+            Websocket, Cypress, Jest, Docker, K8s, Nginx-ingress, NATS message streaming',
             responsibilities: '\
             <ul>\
             <li>Fullstack development</li>\
             <li>Requirements analysis</li>\
             <li>Implement features:\
             <ul class="feature-branches">\
-            <li>Build centralized package</li>\
+            <li>Build centralized packages</li>\
             <li>Handling distributed transaction</li>\
             <li>Implement chat functionality</li>\
             <li>Coaching Junior</li>\
@@ -345,31 +354,13 @@ const database = {
           },
           {
             customer: 'Japanese',
-            name: 'Hotel, restaurant, spa,... management system',
-            teamSize: '20 members',
-            domain: 'Compilation',
-            description: 'Design a system for a large corporation that have their business eco-system revolve around hotel, restaurant and spa',
-            architecture: 'Microservices',
-            technologies: 'React, Redux, Ant-design, Dva, Typescript, Node/Express, MongoDB, Jest, Apache Kafka message streaming',
-            responsibilities: '\
-            <ul>\
-            <li>Fullstack development</li>\
-            <li>Requirements analysis</li>\
-            <li>Responsibility for the hotel modules, including: Reservation management, Room booking, Hotel Map, Rate management</li>\
-            <li>Troubleshooting and bug fixing</li>\
-            <li>Write Unit Testings</li>\
-            <li>Water fall process</li>\
-            </ul>'
-          },
-          {
-            customer: 'Japanese',
             name: 'Car booking application',
-            teamSize: '5 members',
+            teamSize: '6 members',
             domain: 'Transportation and Travel services',
             description: 'Designing and developing a user-friendly and feature-rich platform that allows customers to book rental cars and ride-hailing services',
             architecture: 'Microservices',
             technologies:
-              'React, Mobx-state-tree, React Native, Nextjs, Typescript, Nodejs/Express, Postgresql,\
+              'React, Mobx-state-tree, React Native, Nextjs, Typescript, Nodejs/Express, Express Gateway, MongoDB,\
               Firebase, GraphQL, Apollo, Twillio, Stripe, Jest, Docker / Docker-compose, K8s, AWS S3, AWS Kinesis Stream',
             responsibilities: '\
             <ul>\
@@ -394,6 +385,24 @@ const database = {
           },
           {
             customer: 'Japanese',
+            name: 'Hotel, restaurant, spa,... management system',
+            teamSize: '20 members',
+            domain: 'Hotel and Hospitality',
+            description: 'Design a system for a large corporation that have their business eco-system revolve around hotel, restaurant and spa',
+            architecture: 'Microservices',
+            technologies: 'React, Redux, Ant-design, Dva, Typescript, Node/Express, MongoDB, Jest, Apache Kafka message streaming',
+            responsibilities: '\
+            <ul>\
+            <li>Fullstack development</li>\
+            <li>Requirements analysis</li>\
+            <li>Responsibility for the hotel modules, including: Reservation management, Room booking, Hotel Map, Rate management</li>\
+            <li>Troubleshooting and bug fixing</li>\
+            <li>Write Unit Testings</li>\
+            <li>Water fall process</li>\
+            </ul>'
+          },
+          {
+            customer: 'Japanese',
             name: 'Medical management system',
             teamSize: '5 members',
             domain: 'Healthcare',
@@ -406,6 +415,7 @@ const database = {
             <li>Requirements analysis</li>\
             <li>Features Implementation</li>\
             <li>Write Unit Testings</li>\
+            <li>Water fall process</li>\
             </ul>'
           },
           {
@@ -423,13 +433,14 @@ const database = {
             <li>Features Implementation</li>\
             <li>Write Unit Testings</li>\
             <li>Collaborate and discuss with colleague to clarify doubts</li>\
+            <li>Water fall process</li>\
             </ul>'
           },
           {
             customer: 'Rikkeisoft',
             name: 'Skillsheet application',
             teamSize: '3 members',
-            domain: 'Internal',
+            domain: 'Internal product',
             description: 'An application that allow users to upload their skills, experiences, expertises, education,...',
             architecture: 'Monolithic client-side approach',
             technologies: 'Angular 2, Python / Flask, Mysql',
@@ -439,6 +450,7 @@ const database = {
             <li>Requirements analysis</li>\
             <li>Features Implementation</li>\
             <li>Collaboration and discussion with colleague to clarify doubts</li>\
+            <li>Water fall process</li>\
             </ul>'
           },
         ],
@@ -462,10 +474,10 @@ const database = {
             technologies: 'Wordpress, Shopify, React',
             responsibilities: '\
             <ul>\
-            <li>React Front-end development</li>\
             <li>Shopify theme development</li>\
             <li>Wordpress theme development</li>\
             <li>Wordpress plug-in development</li>\
+            <li>React landing pages implementation</li>\
             <li>Troubleshooting and bug fixing</li>\
             <li>Handling customer requirements for theme and plug-in customization</li>\
             </ul>',
