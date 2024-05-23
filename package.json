@@ -2,6 +2,7 @@
   "name": "phuongdk-portfolio",
   "version": "4.6.0",
   "license": "MIT",
+  "homepage": "/profile",
   "engines": {
     "node": "19.4.0",
     "npm": "9.2.0"

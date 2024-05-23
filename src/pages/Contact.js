@@ -130,7 +130,7 @@ function Contact() {
                         aria-label="Chat on WhatsApp"
                         href="https://wa.me/84393167157?text=Hello">
                         <img alt="Chat on WhatsApp"
-                          src="/images/WhatsAppButtonGreenLarge.png" />
+                          src="profile/images/WhatsAppButtonGreenLarge.png" />
                       </a>
                     </div>
                   </div>
@@ -148,7 +148,7 @@ function Contact() {
                     </div>
                   </div>
                 )}
-                <div className='mi-contact-infoblock'>
+                {/* <div className='mi-contact-infoblock'>
                   <span className='mi-contact-infoblock-icon'>
                     <Icon.GitHub />
                   </span>
@@ -162,7 +162,7 @@ function Contact() {
                       {githubLink}
                     </a>
                   </div>
-                </div>
+                </div> */}
                 <div className='mi-contact-infoblock'>
                   <span className='mi-contact-infoblock-icon'>
                     <Icon.Linkedin />

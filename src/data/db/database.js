@@ -26,16 +26,16 @@ const database = {
       github: 'https://github.com',
       linkedin: '',
     },
-    brandImage: '/images/portrait.jpg',
-    aboutImage: '/images/about-image.jpg',
-    aboutImageLg: '/images/about-image-lg.jpg',
-    cvfile: 'http://phuongdk.com/images/cvm.pdf',
+    brandImage: '/profile/images/portrait.jpg',
+    aboutImage: '/profile/images/about-image.jpg',
+    aboutImageLg: '/profile/images/about-image-lg.jpg',
+    cvfile: 'http://phuongdk.com/images/cv_dkp.jpg',
     cert1: 'http://phuongdk.com/images/ielts_cert.jpg',
-    cert1Image: '/images/ielts-badge.png',
+    cert1Image: '/profile/images/ielts-badge.png',
     cert2: 'https://www.credly.com/badges/a52f4f5a-1a13-425f-a97a-08d3d50ce505/linked_in_profile',
-    cert2Image: '/images/aws-saa-badge.png',
+    cert2Image: '/profile/images/aws-saa-badge.png',
     cert3: 'https://www.credly.com/badges/bf6b012a-bc7b-4872-bc84-8a45124c3048/linked_in_profile',
-    cert3Image: '/images/aws-dva-badge.png',
+    cert3Image: '/profile/images/aws-dva-badge.png',
   },
   services: [
     {
@@ -147,12 +147,12 @@ const database = {
         companyLink: 'https://www.hcltech.com/',
         details: '\
         <ul>\
-        <li>Working with ANZ Bank in Australia, focusing on AWS cloud environment.</li>\
         <li>Working with United Oversea Bank in Singapore, leading bank in Asia on their products, focusing on javascript, python.</li>\
+        <li>Golang self-studying and researching.</li>\
         <ul>',
         projects: [
           {
-            client: 'ANZ',
+            client: 'UOB',
             name: 'Artifact Management System',
             teamSize: '4 members',
             domain: 'E-commerce (auction)',
@@ -179,37 +179,6 @@ const database = {
             <li>Tasks distribution</li>\
             <li>Perform unit testings</li>\
             <li>System maintaining</li>\
-            <li>Daily Scrum process</li>\
-            </ul>'
-          },
-          {
-            client: 'UOB',
-            name: 'Loan Management System',
-            teamSize: '6 members',
-            domain: 'Banking',
-            description: 'Developing and maintaining user-friendly loan management system to streamline the lending process and enhance operational efficiency',
-            architecture: 'Monolithic client-side approach',
-            technologies: 'Angular 12, Typescript, Rxjs, Nodejs, PostgreSql, Cypress, Pytest',
-            responsibilities: '\
-            <ul>\
-            <li>Squad leading</li>\
-            <li>Fullstack development</li>\
-            <li>Provide plan, tasks distribution and estimation</li>\
-            <li>Requirements analysis</li>\
-            <li>Implement features:\
-            <ul class="feature-branches">\
-            <li>Receiving account datas from various sources within UOB ecosystem and branching scenarios</li>\
-            <li>Implement various kind of rental: personal, home, business, consumer, other loans</li>\
-            <li>Validate for Loan eligibility check</li>\
-            <li>Implement loan approval notification</li>\
-            <li>Implement Late payment penalty</li>\
-            <li>Send data analytics and reportings</li>\
-            </ul>\
-            </li>\
-            <li>Troubleshooting and bug fixing</li>\
-            <li>Code reviews and team collaboration</li>\
-            <li>Write Automation and Unit Testings</li>\
-            <li>Production issues response</li>\
             <li>Daily Scrum process</li>\
             </ul>'
           },
@@ -507,7 +476,7 @@ const database = {
     {
       id: 1,
       title: 'Vuejs Tiny Sketch Application',
-      featuredImage: '/images/tiny-sketch-bg.jpg',
+      featuredImage: '/profile/images/tiny-sketch-bg.jpg',
       link: 'https://tiny-sketch-app.phuongdk.io',
       download: false,
       // createDay: '1',
@@ -517,7 +486,7 @@ const database = {
     {
       id: 2,
       title: 'React Dumbo Chat Application',
-      featuredImage: '/images/dumbo-bg.jpg',
+      featuredImage: '/profile/images/dumbo-bg.jpg',
       link: 'https://dumbo-chat-app.phuongdk.io',
       download: false,
       // createDay: '1',
@@ -527,7 +496,7 @@ const database = {
     {
       id: 3,
       title: 'React Native Car Booking Application ( Pure UI )',
-      featuredImage: '/images/car-app-bg.jpg',
+      featuredImage: '/profile/images/car-app-bg.jpg',
       link: 'http://phuongdk.com/images/car-booking-app-ios-qr.png',
       linkReference: [
         {
@@ -557,7 +526,7 @@ const database = {
     {
       id: 4,
       title: 'React Native Estate Full Application',
-      featuredImage: '/images/estate-bg.jpg',
+      featuredImage: '/profile/images/estate-bg.jpg',
       link: 'http://phuongdk.com/images/puma-housing-app-ios-qr.png',
       linkReference: [
         {
@@ -577,7 +546,7 @@ const database = {
     {
       id: 5,
       title: 'Electron CPU Monitor Application for Windows',
-      featuredImage: '/images/cpu-monitor-bg.jpg',
+      featuredImage: '/profile/images/cpu-monitor-bg.jpg',
       link: 'http://phuongdk.com/cpu-monitor-app/CpuMonitor-Setup-1.0.0.exe',
       download: true,
       // createDay: '1',
@@ -587,7 +556,7 @@ const database = {
     {
       id: 6,
       title: 'Oxygen Shopify Theme',
-      featuredImage: '/images/oxygen-bg.jpg',
+      featuredImage: '/profile/images/oxygen-bg.jpg',
       link: 'https://ap-oxygen.myshopify.com/',
       download: false,
       // createDay: '1',
@@ -597,7 +566,7 @@ const database = {
     {
       id: 7,
       title: 'Over Shopify Theme',
-      featuredImage: '/images/over-bg.jpg',
+      featuredImage: '/profile/images/over-bg.jpg',
       link: 'https://ap-over.myshopify.com/',
       download: false,
       // createDay: '1',
@@ -607,7 +576,7 @@ const database = {
     {
       id: 8,
       title: 'Casper Shopify Theme',
-      featuredImage: '/images/casper-bg.jpg',
+      featuredImage: '/profile/images/casper-bg.jpg',
       link: 'https://ap-cp.myshopify.com/',
       download: false,
       // createDay: '1',
@@ -620,32 +589,32 @@ const database = {
       id: 1,
       title: 'Dice Game',
       subtitle: 'Pure javascript Application',
-      imageUrl: '/images/dice-bg.jpg',
-      largeImageUrl: ['/images/dice-bg.jpg'],
+      imageUrl: '/profile/images/dice-bg.jpg',
+      largeImageUrl: ['/profile/images/dice-bg.jpg'],
       url: 'https://dice-game-app.phuongdk.io',
     },
     {
       id: 2,
       title: 'Small budget Application',
       subtitle: 'Pure javascript Application',
-      imageUrl: '/images/budget-bg.jpg',
-      largeImageUrl: ['/images/budget-bg.jpg'],
+      imageUrl: '/profile/images/budget-bg.jpg',
+      largeImageUrl: ['/profile/images/budget-bg.jpg'],
       url: 'https://budget-app.phuongdk.io',
     },
     {
       id: 3,
       title: 'Small Auction System',
       subtitle: 'Small Auction System',
-      imageUrl: '/images/auction-bg.jpg',
-      largeImageUrl: ['/images/auction-bg.jpg'],
+      imageUrl: '/profile/images/auction-bg.jpg',
+      largeImageUrl: ['/profile/images/auction-bg.jpg'],
       url: 'https://auction-system.phuongdk.io',
     },
     // {
     //   id: 3,
     //   title: 'Alpha Blog Application',
     //   subtitle: 'Build on top of Ruby on Rails framework',
-    //   imageUrl: '/images/alpha-blog.jpg',
-    //   largeImageUrl: ['/images/alpha-blog.jpg'],
+    //   imageUrl: '/profile/images/alpha-blog.jpg',
+    //   largeImageUrl: ['/profile/images/alpha-blog.jpg'],
     //   url: 'https://alpha-blog-phuongdk.herokuapp.com/',
     // },
   ],
