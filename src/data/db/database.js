@@ -76,12 +76,12 @@ const database = {
       value: 28.58,
       additionalInfo: '<ul><li>Angular 14, Typescript</li><li>Rxjs</li><li>Angular Universal</li></ul>'
     },
-    // {
-    //   title: 'Vuejs',
-    //   level: '2 YoE',
-    //   value: 28.58,
-    //   additionalInfo: '<ul><li>Vue 3</li><li>Vuex 4, Pinia</li><li>Vuex Router 4</li></ul>'
-    // },
+    {
+      title: 'Electronjs',
+      level: '1 YoE',
+      value: 14.29,
+      additionalInfo: ''
+    },
     {
       title: 'Nodejs',
       level: '4 YoE',
@@ -93,6 +93,12 @@ const database = {
       level: '3 YoE',
       value: 42.87,
       additionalInfo: '<ul><li>Flask micro framework</li><li>Python boto3 for interacting with AWS resources</li></ul>'
+    },
+    {
+      title: 'Golang',
+      level: '1 YoE',
+      value: 14.29,
+      additionalInfo: ''
     },
     {
       title: 'Docker',

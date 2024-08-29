@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Phuongdk's portfolio
-# Node v19.4.0 / nvm v9.2.0
+# Node v19.4.0 / npm v9.2.0
 
 npm config set legacy-peer-deps true\
 npm install
