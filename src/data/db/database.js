@@ -29,13 +29,15 @@ const database = {
     brandImage: '/images/portrait.jpg',
     aboutImage: '/images/about-image.jpg',
     aboutImageLg: '/images/about-image-lg.jpg',
-    cvfile: 'http://phuongdk.com/images/cvm.pdf',
+    cvfile: 'http://phuongdk.com/images/cv.pdf',
     cert1: 'http://phuongdk.com/images/ielts_cert.jpg',
     cert1Image: '/images/ielts-badge.png',
     cert2: 'https://www.credly.com/badges/a52f4f5a-1a13-425f-a97a-08d3d50ce505/linked_in_profile',
     cert2Image: '/images/aws-saa-badge.png',
     cert3: 'https://www.credly.com/badges/bf6b012a-bc7b-4872-bc84-8a45124c3048/linked_in_profile',
     cert3Image: '/images/aws-dva-badge.png',
+    cert4: 'https://www.credly.com/badges/65a4be6b-146b-45da-9630-409064ec4d0e/linked_in_profile',
+    cert4Image: '/images/aws-scs-badge.png',
   },
   services: [
     {
@@ -54,68 +56,68 @@ const database = {
   skills: [
     {
       title: 'HTML5 / CSS3 / Javascript ESNext',
-      level: '7 YoE',
+      level: '8 YoE',
       value: 100,
       additionalInfo: ''
     },
     {
       title: 'React',
       level: '5 YoE',
-      value: 71.45,
+      value: 62.5,
       additionalInfo: '<ul><li>React hook, React context</li><li>Redux, Redux-tool-kit, Mobx-state-tree, React-query</li><li>Nextjs</li><li>Webpack</li></ul>'
     },
     {
       title: 'React Native',
       level: '1 YoE',
-      value: 14.29,
+      value: 12.50,
       additionalInfo: ''
     },
     {
       title: 'Angular',
       level: '2 YoE',
-      value: 28.58,
+      value: 25,
       additionalInfo: '<ul><li>Angular 14, Typescript</li><li>Rxjs</li><li>Angular Universal</li></ul>'
     },
     {
       title: 'Electronjs',
       level: '1 YoE',
-      value: 14.29,
+      value: 12.5,
       additionalInfo: ''
     },
     {
       title: 'Nodejs',
       level: '4 YoE',
-      value: 42.87,
+      value: 50,
       additionalInfo: '<ul><li>Express framework</li><li>Nestjs framework</li></ul>'
     },
     {
       title: 'Python',
       level: '3 YoE',
-      value: 42.87,
+      value: 37.5,
       additionalInfo: '<ul><li>Flask micro framework</li><li>Python boto3 for interacting with AWS resources</li></ul>'
     },
     {
       title: 'Golang',
-      level: '1 YoE',
-      value: 14.29,
+      level: '2 YoE',
+      value: 25,
       additionalInfo: ''
     },
     {
       title: 'Docker',
-      level: '2 YoE',
-      value: 28.58,
+      level: '3 YoE',
+      value: 37.5,
       additionalInfo: '<ul><li>Docker compose</li></ul>'
     },
     {
       title: 'Kubernetes',
       level: '6 months',
-      value: 7.145,
+      value: 6.25,
       additionalInfo: ''
     },
     {
       title: 'Amazon Web Services',
-      level: '1.5 YoE',
-      value: 21.44,
+      level: '3 YoE',
+      value: 37.5,
       additionalInfo: '\
       <ul><li>IAM</li>\
       <li>VPC</li>\

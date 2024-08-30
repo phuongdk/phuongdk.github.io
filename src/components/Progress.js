@@ -1,33 +1,8 @@
 import React from 'react';
-import Lib from 'react-slick/lib';
 
 function Progress(props) {
-  const winWidth = window.innerWidth;
   const progressQuery = () => {
-    if (winWidth && winWidth > 767) {
-      return (
-        <React.Fragment>
-          <span
-            className='mi-progress-active'
-            style={
-              props.isVisible ? { width: `${props.percentage}%` } : { width: 0 }
-            }
-          ></span>
-          <span
-            className='mi-progress-line-divider d1'></span>
-          <span
-            className='mi-progress-line-divider d2'></span>
-          <span
-            className='mi-progress-line-divider d3'></span>
-          <span
-            className='mi-progress-line-divider d4'></span>
-          <span
-            className='mi-progress-line-divider d5'></span>
-            <span
-            className='mi-progress-line-divider d6'></span>
-        </React.Fragment>
-      );
-    }
+
     return (
       <React.Fragment>
         <span
@@ -44,6 +19,12 @@ function Progress(props) {
           className='mi-progress-line-divider d4'></span>
         <span
           className='mi-progress-line-divider d5'></span>
+        <span
+          className='mi-progress-line-divider d6'></span>
+        <span
+          className='mi-progress-line-divider d7'></span>
+        <span
+          className='mi-progress-line-divider d8'></span>
       </React.Fragment>
     );
   };

@@ -178,6 +178,13 @@ function About() {
               >
                 <img src={information.cert3Image} width="150" height="150" alt="certification" />
               </a>
+              <a
+                href={information.cert4}
+                rel='noopener noreferrer'
+                target='_blank'
+              >
+                <img src={information.cert4Image} width="150" height="150" alt="certification" />
+              </a>
             </div>
           </div>
         </div>
