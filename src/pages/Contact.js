@@ -125,7 +125,7 @@ function Contact() {
                     <Icon.PhoneCall />
                   </span>
                   <div className='mi-contact-infoblock-content'>
-                    <div className='whatsapp-btn-wrapper' style={{position: 'relative', top: '0px', width: '300px'}}>
+                    <div className='whatsapp-btn-wrapper' style={{ position: 'relative', top: '0px', width: '300px' }}>
                       <a
                         aria-label="Chat on WhatsApp"
                         href="https://wa.me/84393167157?text=Hello">
@@ -150,21 +150,6 @@ function Contact() {
                 )}
                 <div className='mi-contact-infoblock'>
                   <span className='mi-contact-infoblock-icon'>
-                    <Icon.GitHub />
-                  </span>
-                  <div className='mi-contact-infoblock-content'>
-                    <h6>Github</h6>
-                    <a
-                      rel='noopener noreferrer'
-                      href={githubLink}
-                      target='_blank'
-                    >
-                      {githubLink}
-                    </a>
-                  </div>
-                </div>
-                <div className='mi-contact-infoblock'>
-                  <span className='mi-contact-infoblock-icon'>
                     <Icon.Linkedin />
                   </span>
                   <div className='mi-contact-infoblock-content'>
@@ -175,6 +160,21 @@ function Contact() {
                       target='_blank'
                     >
                       {linkedinLink}
+                    </a>
+                  </div>
+                </div>
+                <div className='mi-contact-infoblock'>
+                  <span className='mi-contact-infoblock-icon'>
+                    <Icon.GitHub />
+                  </span>
+                  <div className='mi-contact-infoblock-content'>
+                    <h6>Github</h6>
+                    <a
+                      rel='noopener noreferrer'
+                      href={githubLink}
+                      target='_blank'
+                    >
+                      {githubLink}
                     </a>
                   </div>
                 </div>

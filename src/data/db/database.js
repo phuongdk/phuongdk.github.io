@@ -5,16 +5,16 @@ const database = {
     name: 'Do Ky Phuong',
     name_vi: 'Do Ky Phuong',
     aboutHome:
-      'I am a Software Engineer. I can tackle with both front-end and back-end issues. I can provide clean code and work with data structures as well.',
+      'I am a Software Engineer with expertise in both front-end and back-end development, as well as cloud computing. I specialize in delivering clean code and designing scalable, maintainable systems.',
     aboutContent:
-      'I am a Software Engineer who excels in web and cross-platform mobile development. I am passionate about building applications in javascript, python programming languages and AWS platform. I prefer talking about tech discussions and surfing tech groups like medium, dev.to, reddit... when I have free time to comprehend as well as update knowledge from the communities.',
+      'I am a software engineer who excels in modern web and hybrid mobile application development. I am passionate about building stuffs in javascript, python, golang programming languages and AWS cloud computing. I prefer talking about tech discussions and surfing tech groups like reddit, dev.to, medium... when I have free time to comprehend as well as update knowledge from the communities.',
     dob: '17 March 1993',
     phone: '',
     nationality: 'Viet Nam',
     language: 'Vietnamese, English',
-    hobby: 'Tech discussion, books, games, traveling, cuisine',
+    hobby: 'Tech discussion, books, table-tennis, jogging, traveling, cuisine',
     personality: 'gentle, harmony',
-    experience: '7+ years overall in the software industry - application development field',
+    experience: '8+ years overall in the software industry - application development field',
     email: '',
     address: '',
     socialLinks: {
@@ -100,7 +100,7 @@ const database = {
       title: 'Golang',
       level: '2 YoE',
       value: 25,
-      additionalInfo: ''
+      additionalInfo: '<ul><li>Echo framework</li><li>Chi framework</li></ul>'
     },
     {
       title: 'Docker',
@@ -112,7 +112,7 @@ const database = {
       title: 'Kubernetes',
       level: '6 months',
       value: 6.25,
-      additionalInfo: ''
+      additionalInfo: '<ul><li>Helm chart</li></ul>'
     },
     {
       title: 'Amazon Web Services',
@@ -149,18 +149,48 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: 'July 2021 - Now',
+        year: 'August 2021 - Now',
         position: 'Senior Software Engineer Team Lead',
         company: 'HCL Technologies',
         companyLink: 'https://www.hcltech.com/',
         details: '\
         <ul>\
-        <li>Working with ANZ Bank in Australia, focusing on AWS cloud environment.</li>\
-        <li>Working with United Oversea Bank in Singapore, leading bank in Asia on their products, focusing on javascript, python.</li>\
+        <li>Working with ANZ Bank, the top three banks in Australia.</li>\
+        <li>Working with United Overseas Bank in Singapore, a leading bank in Asia on their products, focusing on javascript and Python.</li>\
         <ul>',
         projects: [
           {
             client: 'ANZ',
+            name: 'Generative AI application',
+            teamSize: '12 members',
+            domain: 'AI',
+            description: 'Developing an advanced AI-powered virtual assistant designed to enhance productivity and engagement for ANZ employees',
+            architecture: 'Microservices, BFF (Backend for Frontend) architecture',
+            technologies: 'React, Redux-toolkit, Jest, Playwright, Python, Golang, Nodejs, Langchain, PostgreSql, Pgvector, AWS Lambda, AWS Sagemaker, AWS S3, Docker, Docker-compose, K8s, Helm, Github, Codefresh',
+            responsibilities: '\
+            <ul>\
+            <li>Fullstack development</li>\
+            <li>Independent working</li>\
+            <li>Team collaboration when needed</li>\
+            <li>Implement features:\
+            <ul class="feature-branches">\
+            <li>FE implementation</li>\
+            <li>BE implementation (Python, Node)</li>\
+            <li>Golang Lambda implementation</li>\
+            <li>Backend for Frontend golang implementation</li>\
+            <li>Prompt engineering tweak</li>\
+            <li>Vector store embedding</li>\
+            </ul>\
+            </li>\
+            <li>Troubleshooting and bug fixing</li>\
+            <li>Perform unit testings</li>\
+            <li>Perform e2e testings</li>\
+            <li>System maintaining</li>\
+            <li>Daily Scrum process</li>\
+            </ul>'
+          },
+          {
+            client: 'UOB',
             name: 'Artifact Management System',
             teamSize: '4 members',
             domain: 'E-commerce (auction)',
@@ -221,37 +251,37 @@ const database = {
             <li>Daily Scrum process</li>\
             </ul>'
           },
-          {
-            client: 'UOB',
-            name: 'BB CASA(Current Account and Savings Account)',
-            teamSize: '6 members',
-            domain: 'Banking',
-            description: 'Build and manage an application that handle different type of banking accounts across multiple regions',
-            architecture: 'Monolithic client-side approach',
-            technologies: 'React, Redux-toolkit, Python (Flask), PostgreSql, Jest, React testing library, Pytest',
-            responsibilities: '\
-            <ul>\
-            <li>Squad leading</li>\
-            <li>Fullstack development</li>\
-            <li>Provide plan, tasks distribution and estimation</li>\
-            <li>Requirements analysis</li>\
-            <li>Implement features:\
-            <ul class="feature-branches">\
-            <li>Implement banking account types workflow</li>\
-            <li>Implement credit card for banking account types workflow</li>\
-            <li>Designing form generation workflow depend on account types</li>\
-            <li>Validate Limited Transactions for banking account types</li>\
-            <li>Coordinate datas with other UOB systems using Singpass</li>\
-            </ul>\
-            </li>\
-            <li>Troubleshooting and bug fixing</li>\
-            <li>Code reviews and team collaboration</li>\
-            <li>Coaching Junior</li>\
-            <li>Write Unit and Component Testings</li>\
-            <li>Production issues response</li>\
-            <li>Daily Scrum process</li>\
-            </ul>'
-          },
+          // {
+          //   client: 'UOB',
+          //   name: 'BB CASA(Current Account and Savings Account)',
+          //   teamSize: '6 members',
+          //   domain: 'Banking',
+          //   description: 'Build and manage an application that handle different type of banking accounts across multiple regions',
+          //   architecture: 'Monolithic client-side approach',
+          //   technologies: 'React, Redux-toolkit, Python (Flask), PostgreSql, Jest, React testing library, Pytest',
+          //   responsibilities: '\
+          //   <ul>\
+          //   <li>Squad leading</li>\
+          //   <li>Fullstack development</li>\
+          //   <li>Provide plan, tasks distribution and estimation</li>\
+          //   <li>Requirements analysis</li>\
+          //   <li>Implement features:\
+          //   <ul class="feature-branches">\
+          //   <li>Implement banking account types workflow</li>\
+          //   <li>Implement credit card for banking account types workflow</li>\
+          //   <li>Designing form generation workflow depend on account types</li>\
+          //   <li>Validate Limited Transactions for banking account types</li>\
+          //   <li>Coordinate datas with other UOB systems using Singpass</li>\
+          //   </ul>\
+          //   </li>\
+          //   <li>Troubleshooting and bug fixing</li>\
+          //   <li>Code reviews and team collaboration</li>\
+          //   <li>Coaching Junior</li>\
+          //   <li>Write Unit and Component Testings</li>\
+          //   <li>Production issues response</li>\
+          //   <li>Daily Scrum process</li>\
+          //   </ul>'
+          // },
         ],
       },
       {
@@ -261,7 +291,7 @@ const database = {
         company: 'Viettel Cyber Security',
         companyLink: 'https://viettelcybersecurity.com/',
         details:
-          'Working on Viettel software products, concentrate on Angular, Electron and Python Flask.',
+          'Working on Viettel software products, concentrating on Angular, Electron and Python Flask.',
         projects: [
           {
             client: 'Viettel',
@@ -658,7 +688,7 @@ const database = {
     // },
   ],
   contactInfo: {
-    phoneNumbers: ['(+84) 393 167 157'],
+    // phoneNumbers: ['(+84) 393 167 157'],
     emailAddress: ['phuongdkk@gmail.com'],
     githubLink: 'https://github.com/phuongdk',
     linkedinLink: 'https://linkedin.com/in/phuongdk',
