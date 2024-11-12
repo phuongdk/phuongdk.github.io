@@ -177,9 +177,11 @@ const database = {
             <li>FE implementation</li>\
             <li>BE implementation (Python, Node)</li>\
             <li>Golang Lambda implementation</li>\
-            <li>Backend for Frontend golang implementation</li>\
+            <li>Backend for Frontend (BFF) golang implementation</li>\
             <li>Prompt engineering tweak</li>\
             <li>Vector store embedding</li>\
+            <li>Langchain integration</li>\
+            <li>RAG material preparation</li>\
             </ul>\
             </li>\
             <li>Troubleshooting and bug fixing</li>\
