@@ -171,7 +171,7 @@ const database = {
             <ul>\
             <li>Fullstack development</li>\
             <li>Independent working</li>\
-            <li>Team collaboration when needed</li>\
+            <li>Collaborate with AI engineers to enhance LLMs efficiency</li>\
             <li>Implement features:\
             <ul class="feature-branches">\
             <li>FE implementation</li>\
@@ -208,6 +208,7 @@ const database = {
             <li>Implement features using python boto3 Lambda functions:\
             <ul class="feature-branches">\
             <li>FE implementation</li>\
+            <li>BE serverless function development</li>\
             <li>Implement CRUD bid items</li>\
             <li>Implement bid items functionalities</li>\
             <li>Implement bid items searching and countdown</li>\
