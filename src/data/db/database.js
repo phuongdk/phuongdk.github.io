@@ -76,7 +76,7 @@ const database = {
       title: 'Angular',
       level: '2 YoE',
       value: 25,
-      additionalInfo: '<ul><li>Angular 14, Typescript</li><li>Rxjs</li><li>Angular Universal</li></ul>'
+      additionalInfo: '<ul><li>Angular 17, Typescript</li><li>Rxjs</li><li>Angular Universal</li></ul>'
     },
     {
       title: 'Electronjs',
@@ -94,7 +94,7 @@ const database = {
       title: 'Python',
       level: '3 YoE',
       value: 37.5,
-      additionalInfo: '<ul><li>Flask micro framework</li><li>Python boto3 for interacting with AWS resources</li></ul>'
+      additionalInfo: '<ul><li>Flask micro framework</li><li>Fastapi framework</li><li>Python boto3 for interacting with AWS resources</li></ul>'
     },
     {
       title: 'Golang',
@@ -110,8 +110,8 @@ const database = {
     },
     {
       title: 'Kubernetes',
-      level: '6 months',
-      value: 6.25,
+      level: '1 YoE',
+      value: 12.5,
       additionalInfo: '<ul><li>Helm chart</li></ul>'
     },
     {
@@ -142,7 +142,14 @@ const database = {
       title: 'Support tools...',
       level: '',
       value: 0,
-      additionalInfo: '<ul><li>Github, Gitlab, Github action, Gitlab CI/CD, Bitbucket</li><li>Jira, Confluence</li><li>Trello, Slack, Postman</li></ul>'
+      additionalInfo: '\
+      <ul>\
+      <li>Github, Gitlab, Github action, Gitlab CI/CD, Bitbucket</li>\
+      <li> Jira, Confluence</li>\
+      <li>Trello, Slack, Postman</li>\
+      <li>Github copilot, GPT</li>\
+      </ul>\
+      '
     },
   ],
   experience: {
@@ -547,6 +554,16 @@ const database = {
   petProjects: [
     {
       id: 1,
+      title: 'Angular Generative AI Application',
+      featuredImage: '/images/genai-bg.webp',
+      link: 'https://botspeak-ai-app.phuongdk.io',
+      download: false,
+      // createDay: '2',
+      // createMonth: 'Dec',
+      // createYear: '2024',
+    },
+    {
+      id: 2,
       title: 'Vuejs Tiny Sketch Application',
       featuredImage: '/images/tiny-sketch-bg.jpg',
       link: 'https://tiny-sketch-app.phuongdk.io',
@@ -556,7 +573,7 @@ const database = {
       // createYear: '2022',
     },
     {
-      id: 2,
+      id: 3,
       title: 'React Dumbo Chat Application',
       featuredImage: '/images/dumbo-bg.jpg',
       link: 'https://dumbo-chat-app.phuongdk.io',
@@ -566,7 +583,7 @@ const database = {
       // createYear: '2021',
     },
     {
-      id: 3,
+      id: 4,
       title: 'React Native Car Booking Application ( Pure UI )',
       featuredImage: '/images/car-app-bg.jpg',
       link: 'http://phuongdk.com/images/car-booking-app-ios-qr.png',
@@ -596,7 +613,7 @@ const database = {
       // createYear: '2020',
     },
     {
-      id: 4,
+      id: 5,
       title: 'React Native Estate Full Application',
       featuredImage: '/images/estate-bg.jpg',
       link: 'http://phuongdk.com/images/puma-housing-app-ios-qr.png',
@@ -616,7 +633,7 @@ const database = {
       // createYear: '2021',
     },
     {
-      id: 5,
+      id: 6,
       title: 'Electron CPU Monitor Application for Windows',
       featuredImage: '/images/cpu-monitor-bg.jpg',
       link: 'http://phuongdk.com/cpu-monitor-app/CpuMonitor-Setup-1.0.0.exe',
@@ -626,7 +643,7 @@ const database = {
       // createYear: '2020',
     },
     {
-      id: 6,
+      id: 7,
       title: 'Oxygen Shopify Theme',
       featuredImage: '/images/oxygen-bg.jpg',
       link: 'https://ap-oxygen.myshopify.com/',
@@ -636,7 +653,7 @@ const database = {
       // createYear: '2017',
     },
     {
-      id: 7,
+      id: 8,
       title: 'Over Shopify Theme',
       featuredImage: '/images/over-bg.jpg',
       link: 'https://ap-over.myshopify.com/',
@@ -646,7 +663,7 @@ const database = {
       // createYear: '2017',
     },
     {
-      id: 8,
+      id: 9,
       title: 'Casper Shopify Theme',
       featuredImage: '/images/casper-bg.jpg',
       link: 'https://ap-cp.myshopify.com/',
