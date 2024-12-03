@@ -575,7 +575,7 @@ const database = {
     {
       id: 3,
       title: 'React Dumbo Chat Application',
-      featuredImage: '/images/dumbo-bg.jpg',
+      featuredImage: '/images/dumbo-bg-mod.jpg',
       link: 'https://dumbo-chat-app.phuongdk.io',
       download: false,
       // createDay: '1',
@@ -636,7 +636,7 @@ const database = {
       id: 6,
       title: 'Electron CPU Monitor Application for Windows',
       featuredImage: '/images/cpu-monitor-bg.jpg',
-      link: 'http://phuongdk.com/cpu-monitor-app/CpuMonitor-Setup-1.0.0.exe',
+      link: 'https://portfolio-pdk.s3.ap-southeast-1.amazonaws.com/CpuMonitor-Setup-1.0.0.exe',
       download: true,
       // createDay: '1',
       // createMonth: 'October',

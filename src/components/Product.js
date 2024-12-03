@@ -15,17 +15,42 @@ function Product(props) {
     return month.slice(0, 3);
   };
 
+  const handleDownload = (event, url) => {
+    event.preventDefault();
+
+    const link = document.createElement('a');
+    link.href = url;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className='mi-blog'>
       <div className='mi-blog-image'>
-        <a
-          download={download}
-          href={link}
-          rel='noopener noreferrer'
-          target='_blank'
-        >
-          <img src={featuredImage} alt={title} />
-        </a>
+        {/* for non-downloadable asset */}
+        {
+          !download && (
+            <a
+              href={link}
+              rel='noopener noreferrer'
+              target='_blank'
+            >
+              <img src={featuredImage} alt={title} />
+            </a>
+          )
+        }
+        {/* for downloadable asset */}
+        {
+          download && (
+            <a
+              href="#"
+              onClick={(event) => { handleDownload(event, link) }}
+            >
+              <img src={featuredImage} alt={title} />
+            </a>
+          )
+        }
         {
           createMonth && createYear && (
             <div className='mi-blog-date'>
@@ -35,18 +60,37 @@ function Product(props) {
           )
         }
       </div>
-      <div className='mi-blog-content'>
-        <h5>
-          <a
-            download={download}
-            href={link}
-            rel='noopener noreferrer'
-            target='_blank'
-          >
-            {title}
-          </a>
-        </h5>
-      </div>
+      {/* for non-downloadable asset */}
+      {
+        !download && (
+          <div className='mi-blog-content'>
+            <h5>
+              <a
+                href={link}
+                rel='noopener noreferrer'
+                target='_blank'
+              >
+                {title}
+              </a>
+            </h5>
+          </div>
+        )
+      }
+      {/* for downloadable asset */}
+      {
+        download && (
+          <div className='mi-blog-content'>
+            <h5>
+              <a
+                href="#"
+                onClick={(event) => { handleDownload(event, link) }}
+              >
+                {title}
+              </a>
+            </h5>
+          </div>
+        )
+      }
       {
         Array.isArray(linkReference) && linkReference.length > 0 && (
           <div className='mi-link-reference-wrapper'>
