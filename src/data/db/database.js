@@ -14,7 +14,7 @@ const database = {
     language: 'Vietnamese, English',
     hobby: 'Tech discussion, books, table-tennis, jogging, traveling, cuisine',
     personality: 'gentle, harmony',
-    experience: '8+ years overall in the software industry - application development field',
+    experience: '8 years overall in the software industry - application development field',
     email: '',
     address: '',
     socialLinks: {
@@ -135,6 +135,7 @@ const database = {
       <li>Amplify</li>\
       <li>Kinesis</li>\
       <li>Cloudwatch</li>\
+      <li>Sagemaker</li>\
       </ul>\
       '
     },
@@ -156,7 +157,7 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: 'August 2021 - Now',
+        year: 'June 2021 - Now',
         position: 'Senior Software Engineer Team Lead',
         company: 'HCL Technologies',
         companyLink: 'https://www.hcltech.com/',
@@ -177,6 +178,7 @@ const database = {
             responsibilities: '\
             <ul>\
             <li>Fullstack development</li>\
+            <li>Team management</li>\
             <li>Independent working</li>\
             <li>Collaborate with AI engineers to enhance LLMs efficiency</li>\
             <li>Implement features:\
@@ -185,7 +187,7 @@ const database = {
             <li>BE implementation (Python, Node)</li>\
             <li>Golang Lambda implementation</li>\
             <li>Backend for Frontend (BFF) golang implementation</li>\
-            <li>Prompt engineering tweak</li>\
+            <li>Prompt engineering crafting</li>\
             <li>Vector store embedding</li>\
             <li>Langchain integration</li>\
             <li>RAG material preparation</li>\
@@ -256,7 +258,7 @@ const database = {
             </li>\
             <li>Troubleshooting and bug fixing</li>\
             <li>Code reviews and team collaboration</li>\
-            <li>Write Automation and Unit Testings</li>\
+            <li>Write e2e and unit testings</li>\
             <li>Production issues response</li>\
             <li>Daily Scrum process</li>\
             </ul>'
@@ -296,7 +298,7 @@ const database = {
       },
       {
         id: 2,
-        year: 'Sep 2019 - Dec 2020',
+        year: 'Oct 2019 - Sep 2020',
         position: 'Fullstack Software Engineer',
         company: 'Viettel Cyber Security',
         companyLink: 'https://viettelcybersecurity.com/',
@@ -365,7 +367,7 @@ const database = {
       },
       {
         id: 3,
-        year: 'May 2017 - Aug 2019',
+        year: 'Oct 2017 - Sep 2019',
         position: 'Fullstack Software Engineer',
         company: 'Rikkeisoft',
         companyLink: 'https://rikkeisoft.com/',
@@ -394,7 +396,7 @@ const database = {
             </ul>\
             </li>\
             <li>Troubleshooting and bug fixing</li>\
-            <li>Write Automation and Unit Testings</li>\
+            <li>Write e2e and unit testings</li>\
             <li>Write Docker script</li>\
             <li>Write K8s script</li>\
             <li>Daily Scrum process</li>\
@@ -422,13 +424,13 @@ const database = {
             <li>Implement ride histories flow</li>\
             <li>Add Geo-Location and Map Integration</li>\
             <li>Coaching Junior</li>\
-            <li>Water fall process</li>\
             </ul>\
             </li>\
             <li>Integrated third-party API</li>\
             <li>Documented application</li>\
-            <li>Write Unit Testings</li>\
-            <li>Write Docker script</li>\
+            <li>Write unit testings</li>\
+            <li>Write Docker scripts</li>\
+            <li>Water fall process</li>\
             </ul>'
           },
           {
@@ -479,8 +481,8 @@ const database = {
             <li>Fullstack development</li>\
             <li>Requirements analysis</li>\
             <li>Features Implementation</li>\
-            <li>Write Unit Testings</li>\
-            <li>Collaborate and discuss with colleague to clarify doubts</li>\
+            <li>Write unit testings</li>\
+            <li>Collaborate and discuss with colleagues to clarify doubts</li>\
             <li>Water fall process</li>\
             </ul>'
           },
@@ -505,7 +507,7 @@ const database = {
       },
       {
         id: 4,
-        year: 'Feb 2016 - Feb 2017',
+        year: 'Mar 2016 - Jul 2017',
         position: 'CMS Developer',
         company: 'BrainOS',
         companyLink: 'https://www.linkedin.com/company/brainos/',
