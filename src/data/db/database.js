@@ -14,7 +14,7 @@ const database = {
     language: 'Vietnamese, English',
     hobby: 'Tech discussion, books, table-tennis, jogging, traveling, cuisine',
     personality: 'gentle, harmony',
-    experience: '8 years overall in the software industry - application development field',
+    experience: '8+ years overall in the software industry - application development field',
     email: '',
     address: '',
     socialLinks: {
@@ -32,12 +32,12 @@ const database = {
     cvfile: 'http://phuongdk.com/images/cv.pdf',
     cert1: 'http://phuongdk.com/images/ielts_cert.jpg',
     cert1Image: '/images/ielts-badge.png',
-    cert2: 'https://www.credly.com/badges/a52f4f5a-1a13-425f-a97a-08d3d50ce505/linked_in_profile',
-    cert2Image: '/images/aws-saa-badge.png',
-    cert3: 'https://www.credly.com/badges/bf6b012a-bc7b-4872-bc84-8a45124c3048/linked_in_profile',
-    cert3Image: '/images/aws-dva-badge.png',
-    cert4: 'https://www.credly.com/badges/65a4be6b-146b-45da-9630-409064ec4d0e/linked_in_profile',
-    cert4Image: '/images/aws-scs-badge.png',
+    cert2: 'https://www.credly.com/badges/65a4be6b-146b-45da-9630-409064ec4d0e/linked_in_profile',
+    cert2Image: '/images/aws-scs-badge.png',
+    cert3: 'https://www.credly.com/badges/a52f4f5a-1a13-425f-a97a-08d3d50ce505/linked_in_profile',
+    cert3Image: '/images/aws-saa-badge.png',
+    cert4: 'https://www.credly.com/badges/bf6b012a-bc7b-4872-bc84-8a45124c3048/linked_in_profile',
+    cert4Image: '/images/aws-dva-badge.png',
   },
   services: [
     {
@@ -62,8 +62,8 @@ const database = {
     },
     {
       title: 'React',
-      level: '5 YoE',
-      value: 62.5,
+      level: '6 YoE',
+      value: 75,
       additionalInfo: '<ul><li>React hook, React context</li><li>Redux, Redux-tool-kit, Mobx-state-tree, React-query</li><li>Nextjs</li><li>Webpack</li></ul>'
     },
     {
@@ -86,8 +86,8 @@ const database = {
     },
     {
       title: 'Nodejs',
-      level: '4 YoE',
-      value: 50,
+      level: '5 YoE',
+      value: 62.5,
       additionalInfo: '<ul><li>Express framework</li><li>Nestjs framework</li></ul>'
     },
     {
@@ -158,7 +158,7 @@ const database = {
       {
         id: 1,
         year: 'June 2021 - Now',
-        position: 'Senior Software Engineer Team Lead',
+        position: 'Software Engineer Technical Lead',
         company: 'HCL Technologies',
         companyLink: 'https://www.hcltech.com/',
         details: '\
@@ -174,12 +174,11 @@ const database = {
             domain: 'AI',
             description: 'Developing an advanced AI-powered virtual assistant designed to enhance productivity and engagement for ANZ employees',
             architecture: 'Microservices, BFF (Backend for Frontend) architecture',
-            technologies: 'React, Redux-toolkit, Jest, Playwright, Python, Golang, Nodejs, Langchain, PostgreSql, Pgvector, AWS Lambda, AWS Sagemaker, AWS S3, Docker, Docker-compose, K8s, Helm, Github, Codefresh',
+            technologies: 'React, Redux-toolkit, Jest, Playwright, Python, Golang, Nodejs, Langchain, PostgreSql, Pgvector, AWS Lambda, AWS Sagemaker, AWS S3, Docker, Docker-compose, K8s, Helm, EKS, Github, Codefresh',
             responsibilities: '\
             <ul>\
             <li>Fullstack development</li>\
-            <li>Team management</li>\
-            <li>Independent working</li>\
+            <li>Lead team with 4 members</li>\
             <li>Collaborate with AI engineers to enhance LLMs efficiency</li>\
             <li>Implement features:\
             <ul class="feature-branches">\
@@ -187,10 +186,9 @@ const database = {
             <li>BE implementation (Python, Node)</li>\
             <li>Golang Lambda implementation</li>\
             <li>Backend for Frontend (BFF) golang implementation</li>\
-            <li>Prompt engineering crafting</li>\
-            <li>Vector store embedding</li>\
             <li>Langchain integration</li>\
-            <li>RAG material preparation</li>\
+            <li>Setup RAG pipeline: "document loading, document splitting, vector store embedding, similarity search, text retrieval and generation, prompts crafting"</li>\
+            <li>RAG knowledge base preparation</li>\
             </ul>\
             </li>\
             <li>Troubleshooting and bug fixing</li>\
@@ -210,6 +208,7 @@ const database = {
             technologies: 'Route53, VPC, NGW, IGW, Amplify, React, React-query, Zustand, Jest, Playwright, API Gateway, Python Boto3, Lambda, DynamoDB, Cognito, SQS, SAM, S3, Github actions',
             responsibilities: '\
             <ul>\
+            <li>Lead team with 3 members</li>\
             <li>Setup VPC</li>\
             <li>Setup Frontend project structure</li>\
             <li>Setup serverless architecture</li>\
@@ -224,7 +223,7 @@ const database = {
             <li>Setup AWS SQS for biding</li>\
             </ul>\
             </li>\
-            <li>Collaborate with devops engineer for cloud formation and SAM template setup</li>\
+            <li>Collaborate with devops engineer for and SAM template setup</li>\
             <li>Troubleshooting and bug fixing</li>\
             <li>Tasks distribution</li>\
             <li>Perform unit testings</li>\
@@ -235,14 +234,14 @@ const database = {
           {
             client: 'UOB',
             name: 'Loan Management System',
-            teamSize: '6 members',
+            teamSize: '8 members',
             domain: 'Banking',
             description: 'Developing and maintaining user-friendly loan management system to streamline the lending process and enhance operational efficiency',
             architecture: 'Monolithic client-side approach',
             technologies: 'Angular 12, Typescript, Rxjs, Nodejs, PostgreSql, Cypress, Pytest',
             responsibilities: '\
             <ul>\
-            <li>Squad leading</li>\
+            <li>Lead team with 4 members</li>\
             <li>Fullstack development</li>\
             <li>Provide plan, tasks distribution and estimation</li>\
             <li>Requirements analysis</li>\
